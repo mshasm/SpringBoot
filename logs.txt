@@ -1,0 +1,1636 @@
+
+==> Audit <==
+|---------|--------------------------------|----------|------------|---------|---------------------|---------------------|
+| Command |              Args              | Profile  |    User    | Version |     Start Time      |      End Time       |
+|---------|--------------------------------|----------|------------|---------|---------------------|---------------------|
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 02 Feb 25 11:04 IST | 02 Feb 25 11:06 IST |
+| delete  |                                | minikube | thammuluri | v1.35.0 | 02 Feb 25 11:08 IST | 02 Feb 25 11:08 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 02 Feb 25 11:08 IST | 02 Feb 25 11:10 IST |
+| stop    |                                | minikube | thammuluri | v1.35.0 | 02 Feb 25 11:10 IST | 02 Feb 25 11:10 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 02 Feb 25 11:11 IST | 02 Feb 25 11:11 IST |
+| addons  | list                           | minikube | thammuluri | v1.35.0 | 02 Feb 25 11:12 IST | 02 Feb 25 11:12 IST |
+| addons  | enable storage-provisioner     | minikube | thammuluri | v1.35.0 | 02 Feb 25 11:12 IST | 02 Feb 25 11:12 IST |
+| addons  | enable ingress                 | minikube | thammuluri | v1.35.0 | 02 Feb 25 11:13 IST |                     |
+| ip      |                                | minikube | thammuluri | v1.35.0 | 02 Feb 25 12:46 IST | 02 Feb 25 12:46 IST |
+| addons  | enable ingress                 | minikube | thammuluri | v1.35.0 | 02 Feb 25 15:01 IST | 02 Feb 25 15:01 IST |
+| addons  | list                           | minikube | thammuluri | v1.35.0 | 02 Feb 25 15:01 IST | 02 Feb 25 15:01 IST |
+| addons  | enable metrics-server          | minikube | thammuluri | v1.35.0 | 02 Feb 25 15:02 IST | 02 Feb 25 15:02 IST |
+| delete  |                                | minikube | thammuluri | v1.35.0 | 02 Feb 25 21:10 IST | 02 Feb 25 21:10 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 02 Feb 25 21:11 IST | 02 Feb 25 21:12 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 03 Feb 25 15:10 IST | 03 Feb 25 15:11 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 03 Feb 25 18:22 IST |                     |
+| delete  |                                | minikube | thammuluri | v1.35.0 | 03 Feb 25 18:25 IST | 03 Feb 25 18:25 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 03 Feb 25 18:25 IST | 03 Feb 25 18:27 IST |
+| addons  | list                           | minikube | thammuluri | v1.35.0 | 03 Feb 25 18:40 IST | 03 Feb 25 18:40 IST |
+| addons  | enable ingress                 | minikube | thammuluri | v1.35.0 | 03 Feb 25 18:40 IST | 03 Feb 25 18:41 IST |
+| addons  | list                           | minikube | thammuluri | v1.35.0 | 03 Feb 25 18:41 IST | 03 Feb 25 18:41 IST |
+| ip      |                                | minikube | thammuluri | v1.35.0 | 03 Feb 25 19:10 IST | 03 Feb 25 19:10 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 04 Feb 25 10:58 IST | 04 Feb 25 10:59 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 04 Feb 25 13:28 IST | 04 Feb 25 13:29 IST |
+| addons  | list                           | minikube | thammuluri | v1.35.0 | 04 Feb 25 13:29 IST | 04 Feb 25 13:29 IST |
+| addons  | enable ingress                 | minikube | thammuluri | v1.35.0 | 04 Feb 25 13:29 IST | 04 Feb 25 13:29 IST |
+| addons  | list                           | minikube | thammuluri | v1.35.0 | 04 Feb 25 13:29 IST | 04 Feb 25 13:29 IST |
+| delete  |                                | minikube | thammuluri | v1.35.0 | 04 Feb 25 13:31 IST | 04 Feb 25 13:31 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 04 Feb 25 13:32 IST | 04 Feb 25 13:33 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 11 Feb 25 13:04 IST | 11 Feb 25 13:05 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 12 Feb 25 15:36 IST | 12 Feb 25 15:36 IST |
+| addons  | list                           | minikube | thammuluri | v1.35.0 | 12 Feb 25 16:39 IST | 12 Feb 25 16:39 IST |
+| addons  | enable ingress                 | minikube | thammuluri | v1.35.0 | 12 Feb 25 16:39 IST | 12 Feb 25 16:39 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 17 Feb 25 16:51 IST | 17 Feb 25 16:51 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 17 Feb 25 21:39 IST | 17 Feb 25 21:40 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 18 Feb 25 10:49 IST | 18 Feb 25 10:50 IST |
+| ip      |                                | minikube | thammuluri | v1.35.0 | 18 Feb 25 14:44 IST | 18 Feb 25 14:44 IST |
+| addons  | list.sh                        | minikube | thammuluri | v1.35.0 | 18 Feb 25 14:55 IST | 18 Feb 25 14:55 IST |
+| addons  | enable ingress                 | minikube | thammuluri | v1.35.0 | 18 Feb 25 14:56 IST | 18 Feb 25 14:56 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 18 Feb 25 15:12 IST |                     |
+| start   |                                | minikube | thammuluri | v1.35.0 | 18 Feb 25 15:14 IST | 18 Feb 25 15:15 IST |
+| delete  |                                | minikube | thammuluri | v1.35.0 | 18 Feb 25 15:17 IST | 18 Feb 25 15:18 IST |
+| start   |                                | minikube | thammuluri | v1.35.0 | 18 Feb 25 15:32 IST | 18 Feb 25 15:32 IST |
+| delete  |                                | minikube | thammuluri | v1.35.0 | 18 Feb 25 15:33 IST | 18 Feb 25 15:33 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 18 Feb 25 15:33 IST | 18 Feb 25 15:34 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 19 Feb 25 10:11 IST |                     |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 19 Feb 25 10:14 IST |                     |
+| addons  | list                           | minikube | thammuluri | v1.35.0 | 19 Feb 25 10:15 IST | 19 Feb 25 10:15 IST |
+| addons  | enable ingress                 | minikube | thammuluri | v1.35.0 | 19 Feb 25 10:15 IST |                     |
+| start   |                                | minikube | thammuluri | v1.35.0 | 19 Feb 25 10:23 IST |                     |
+| start   |                                | minikube | thammuluri | v1.35.0 | 19 Feb 25 10:27 IST |                     |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:01 IST |                     |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:09 IST |                     |
+| config  | set memory 8192                | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:20 IST | 19 Feb 25 15:20 IST |
+| config  | set cpus 4                     | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:20 IST | 19 Feb 25 15:20 IST |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:20 IST |                     |
+| start   | --driver=docker --nodes=4      | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:29 IST |                     |
+| delete  |                                | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:30 IST | 19 Feb 25 15:30 IST |
+| start   | --driver=docker --memory=8192  | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:30 IST |                     |
+|         | --cpus=4 --nodes=4             |          |            |         |                     |                     |
+| start   |                                | minikube | thammuluri | v1.35.0 | 19 Feb 25 15:32 IST |                     |
+|---------|--------------------------------|----------|------------|---------|---------------------|---------------------|
+
+
+==> Last Start <==
+Log file created at: 2025/02/19 15:32:41
+Running on machine: moshe
+Binary: Built with gc go1.23.4 for linux/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0219 15:32:41.555808  363534 out.go:345] Setting OutFile to fd 1 ...
+I0219 15:32:41.555921  363534 out.go:397] isatty.IsTerminal(1) = true
+I0219 15:32:41.555927  363534 out.go:358] Setting ErrFile to fd 2...
+I0219 15:32:41.555933  363534 out.go:397] isatty.IsTerminal(2) = true
+I0219 15:32:41.556133  363534 root.go:338] Updating PATH: /home/thammuluri/.minikube/bin
+I0219 15:32:41.556523  363534 out.go:352] Setting JSON to false
+I0219 15:32:41.557767  363534 start.go:129] hostinfo: {"hostname":"moshe","uptime":18402,"bootTime":1739940959,"procs":329,"os":"linux","platform":"ubuntu","platformFamily":"debian","platformVersion":"22.04","kernelVersion":"6.8.0-52-generic","kernelArch":"x86_64","virtualizationSystem":"kvm","virtualizationRole":"host","hostId":"0c7e8d78-fb97-4e59-8196-60b177bc7ed9"}
+I0219 15:32:41.557869  363534 start.go:139] virtualization: kvm host
+I0219 15:32:41.561139  363534 out.go:177] 😄  minikube v1.35.0 on Ubuntu 22.04
+I0219 15:32:41.568847  363534 notify.go:220] Checking for updates...
+I0219 15:32:41.570435  363534 config.go:182] Loaded profile config "minikube": Driver=docker, ContainerRuntime=docker, KubernetesVersion=v1.32.0
+I0219 15:32:41.570814  363534 driver.go:394] Setting default libvirt URI to qemu:///system
+I0219 15:32:41.617438  363534 docker.go:123] docker version: linux-26.1.3:
+I0219 15:32:41.617537  363534 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0219 15:32:41.639249  363534 info.go:266] docker info: {ID:3ac1b4e5-c9dc-4b6c-9332-9c65501d5aa3 Containers:18 ContainersRunning:1 ContainersPaused:0 ContainersStopped:17 Images:63 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:33 OomKillDisable:false NGoroutines:52 SystemTime:2025-02-19 15:32:41.631555493 +0530 IST LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-52-generic OperatingSystem:Ubuntu 22.04.5 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:16645636096 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:moshe Labels:[] ExperimentalBuild:false ServerVersion:26.1.3 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I0219 15:32:41.639330  363534 docker.go:318] overlay module found
+I0219 15:32:41.642145  363534 out.go:177] ✨  Using the docker driver based on existing profile
+I0219 15:32:41.646892  363534 start.go:297] selected driver: docker
+I0219 15:32:41.646898  363534 start.go:901] validating driver "docker" against &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 Memory:8192 CPUs:4 DiskSize:20000 Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.32.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.49.2 Port:8443 KubernetesVersion:v1.32.0 ContainerRuntime:docker ControlPlane:true Worker:true} {Name:m02 IP:192.168.49.3 Port:8443 KubernetesVersion:v1.32.0 ContainerRuntime:docker ControlPlane:false Worker:true} {Name:m03 IP:192.168.58.4 Port:8443 KubernetesVersion:v1.32.0 ContainerRuntime:docker ControlPlane:false Worker:true}] Addons:map[ambassador:false amd-gpu-device-plugin:false auto-pause:false cloud-spanner:false csi-hostpath-driver:false dashboard:false default-storageclass:false efk:false freshpod:false gcp-auth:false gvisor:false headlamp:false inaccel:false ingress:false ingress-dns:false inspektor-gadget:false istio:false istio-provisioner:false kong:false kubeflow:false kubevirt:false logviewer:false metallb:false metrics-server:false nvidia-device-plugin:false nvidia-driver-installer:false nvidia-gpu-device-plugin:false olm:false pod-security-policy:false portainer:false registry:false registry-aliases:false registry-creds:false storage-provisioner:false storage-provisioner-gluster:false storage-provisioner-rancher:false volcano:false volumesnapshots:false yakd:false] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:true ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/thammuluri:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0219 15:32:41.646985  363534 start.go:912] status for docker: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I0219 15:32:41.647120  363534 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0219 15:32:41.670005  363534 info.go:266] docker info: {ID:3ac1b4e5-c9dc-4b6c-9332-9c65501d5aa3 Containers:18 ContainersRunning:1 ContainersPaused:0 ContainersStopped:17 Images:63 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:33 OomKillDisable:false NGoroutines:52 SystemTime:2025-02-19 15:32:41.660747958 +0530 IST LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-52-generic OperatingSystem:Ubuntu 22.04.5 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:16645636096 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:moshe Labels:[] ExperimentalBuild:false ServerVersion:26.1.3 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I0219 15:32:41.670726  363534 cni.go:84] Creating CNI manager for ""
+I0219 15:32:41.670800  363534 cni.go:136] multinode detected (3 nodes found), recommending kindnet
+I0219 15:32:41.670853  363534 start.go:340] cluster config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 Memory:8192 CPUs:4 DiskSize:20000 Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.32.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.49.2 Port:8443 KubernetesVersion:v1.32.0 ContainerRuntime:docker ControlPlane:true Worker:true} {Name:m02 IP:192.168.49.3 Port:8443 KubernetesVersion:v1.32.0 ContainerRuntime:docker ControlPlane:false Worker:true} {Name:m03 IP:192.168.58.4 Port:8443 KubernetesVersion:v1.32.0 ContainerRuntime:docker ControlPlane:false Worker:true}] Addons:map[ambassador:false amd-gpu-device-plugin:false auto-pause:false cloud-spanner:false csi-hostpath-driver:false dashboard:false default-storageclass:false efk:false freshpod:false gcp-auth:false gvisor:false headlamp:false inaccel:false ingress:false ingress-dns:false inspektor-gadget:false istio:false istio-provisioner:false kong:false kubeflow:false kubevirt:false logviewer:false metallb:false metrics-server:false nvidia-device-plugin:false nvidia-driver-installer:false nvidia-gpu-device-plugin:false olm:false pod-security-policy:false portainer:false registry:false registry-aliases:false registry-creds:false storage-provisioner:false storage-provisioner-gluster:false storage-provisioner-rancher:false volcano:false volumesnapshots:false yakd:false] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:true ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/thammuluri:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0219 15:32:41.675622  363534 out.go:177] 👍  Starting "minikube" primary control-plane node in "minikube" cluster
+I0219 15:32:41.678710  363534 cache.go:121] Beginning downloading kic base image for docker with docker
+I0219 15:32:41.683206  363534 out.go:177] 🚜  Pulling base image v0.0.46 ...
+I0219 15:32:41.690204  363534 preload.go:131] Checking if preload exists for k8s version v1.32.0 and runtime docker
+I0219 15:32:41.690238  363534 preload.go:146] Found local preload: /home/thammuluri/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.32.0-docker-overlay2-amd64.tar.lz4
+I0219 15:32:41.690268  363534 cache.go:56] Caching tarball of preloaded images
+I0219 15:32:41.690289  363534 image.go:81] Checking for gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 in local docker daemon
+I0219 15:32:41.690354  363534 preload.go:172] Found /home/thammuluri/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.32.0-docker-overlay2-amd64.tar.lz4 in cache, skipping download
+I0219 15:32:41.690364  363534 cache.go:59] Finished verifying existence of preloaded tar for v1.32.0 on docker
+I0219 15:32:41.690487  363534 profile.go:143] Saving config to /home/thammuluri/.minikube/profiles/minikube/config.json ...
+I0219 15:32:41.727527  363534 image.go:100] Found gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 in local docker daemon, skipping pull
+I0219 15:32:41.727537  363534 cache.go:145] gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 exists in daemon, skipping load
+I0219 15:32:41.727549  363534 cache.go:227] Successfully downloaded all kic artifacts
+I0219 15:32:41.727574  363534 start.go:360] acquireMachinesLock for minikube: {Name:mk3d61000a4c6b8aca8e06991300602fbe1ae36a Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0219 15:32:41.727619  363534 start.go:364] duration metric: took 32.209µs to acquireMachinesLock for "minikube"
+I0219 15:32:41.727632  363534 start.go:96] Skipping create...Using existing machine configuration
+I0219 15:32:41.727635  363534 fix.go:54] fixHost starting: 
+I0219 15:32:41.727991  363534 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+I0219 15:32:41.744113  363534 fix.go:112] recreateIfNeeded on minikube: state=Stopped err=<nil>
+W0219 15:32:41.744144  363534 fix.go:138] unexpected machine state, will restart: <nil>
+I0219 15:32:41.748751  363534 out.go:177] 🔄  Restarting existing docker container for "minikube" ...
+I0219 15:32:41.756103  363534 cli_runner.go:164] Run: docker start minikube
+W0219 15:32:41.799976  363534 cli_runner.go:211] docker start minikube returned with exit code 1
+I0219 15:32:41.800045  363534 cli_runner.go:164] Run: docker inspect minikube
+I0219 15:32:41.816680  363534 errors.go:84] Postmortem inspect ("docker inspect minikube"): -- stdout --
+[
+    {
+        "Id": "e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e",
+        "Created": "2025-02-19T10:00:55.811917682Z",
+        "Path": "/usr/local/bin/entrypoint",
+        "Args": [
+            "/sbin/init"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 130,
+            "Error": "network 789e213671576568e676ae6574a4955cd5b7dbda4010c6fa60f7abe11f858a9e not found",
+            "StartedAt": "2025-02-19T10:00:56.200095143Z",
+            "FinishedAt": "2025-02-19T10:01:40.647830819Z"
+        },
+        "Image": "sha256:e72c4cbe9b296d8a58fbcae1a7b969fa1cee662cd7b86f2d4efc5e146519cf0a",
+        "ResolvConfPath": "/var/lib/docker/containers/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e/hostname",
+        "HostsPath": "/var/lib/docker/containers/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e/hosts",
+        "LogPath": "/var/lib/docker/containers/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e-json.log",
+        "Name": "/minikube",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "unconfined",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/lib/modules:/lib/modules:ro",
+                "minikube:/var"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "minikube",
+            "PortBindings": {
+                "22/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ],
+                "2376/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ],
+                "32443/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ],
+                "5000/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ],
+                "8443/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": true,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "seccomp=unconfined",
+                "apparmor=unconfined",
+                "label=disable"
+            ],
+            "Tmpfs": {
+                "/run": "",
+                "/tmp": ""
+            },
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 8589934592,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 17179869184,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": null,
+            "ReadonlyPaths": null
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/a1f657456d0c221d8e6e34ddadca98d6fb47197b578469e1998380ec12898fcf-init/diff:/var/lib/docker/overlay2/dc0fc1630ca7a60d7448d7e3a60b14c487bf2d9eaf0b548e5309b18ee94e3545/diff",
+                "MergedDir": "/var/lib/docker/overlay2/a1f657456d0c221d8e6e34ddadca98d6fb47197b578469e1998380ec12898fcf/merged",
+                "UpperDir": "/var/lib/docker/overlay2/a1f657456d0c221d8e6e34ddadca98d6fb47197b578469e1998380ec12898fcf/diff",
+                "WorkDir": "/var/lib/docker/overlay2/a1f657456d0c221d8e6e34ddadca98d6fb47197b578469e1998380ec12898fcf/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/lib/modules",
+                "Destination": "/lib/modules",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "minikube",
+                "Source": "/var/lib/docker/volumes/minikube/_data",
+                "Destination": "/var",
+                "Driver": "local",
+                "Mode": "z",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "minikube",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "22/tcp": {},
+                "2376/tcp": {},
+                "32443/tcp": {},
+                "5000/tcp": {},
+                "8443/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "container=docker",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": null,
+            "Image": "gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/usr/local/bin/entrypoint",
+                "/sbin/init"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "created_by.minikube.sigs.k8s.io": "true",
+                "mode.minikube.sigs.k8s.io": "minikube",
+                "name.minikube.sigs.k8s.io": "minikube",
+                "role.minikube.sigs.k8s.io": ""
+            },
+            "StopSignal": "SIGRTMIN+3"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "68eee8d7d2e24da5e247f4d1e0ca2daa00ebd57fc911a82a9130e7ec7af91958",
+            "SandboxKey": "/var/run/docker/netns/68eee8d7d2e2",
+            "Ports": {},
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "minikube": {
+                    "IPAMConfig": {
+                        "IPv4Address": "192.168.49.2"
+                    },
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "",
+                    "NetworkID": "789e213671576568e676ae6574a4955cd5b7dbda4010c6fa60f7abe11f858a9e",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DriverOpts": null,
+                    "DNSNames": [
+                        "minikube",
+                        "e6a5cbc20607"
+                    ]
+                }
+            }
+        }
+    }
+]
+
+-- /stdout --
+I0219 15:32:41.816740  363534 cli_runner.go:164] Run: docker logs --timestamps --details minikube
+I0219 15:32:41.836743  363534 errors.go:91] Postmortem logs ("docker logs --timestamps --details minikube"): -- stdout --
+2025-02-19T10:00:56.200817716Z  + userns=
+2025-02-19T10:00:56.200902432Z  + grep -Eqv '0[[:space:]]+0[[:space:]]+4294967295' /proc/self/uid_map
+2025-02-19T10:00:56.204081125Z  + validate_userns
+2025-02-19T10:00:56.204100876Z  + [[ -z '' ]]
+2025-02-19T10:00:56.204105196Z  + return
+2025-02-19T10:00:56.204114652Z  + configure_containerd
+2025-02-19T10:00:56.204182769Z  + local snapshotter=
+2025-02-19T10:00:56.204189660Z  + [[ -n '' ]]
+2025-02-19T10:00:56.204231645Z  + [[ -z '' ]]
+2025-02-19T10:00:56.204632214Z  ++ stat -f -c %T /kind
+2025-02-19T10:00:56.205953258Z  + container_filesystem=overlayfs
+2025-02-19T10:00:56.205976813Z  + [[ overlayfs == \z\f\s ]]
+2025-02-19T10:00:56.205982298Z  + [[ -n '' ]]
+2025-02-19T10:00:56.205987066Z  + configure_proxy
+2025-02-19T10:00:56.206417241Z  + mkdir -p /etc/systemd/system.conf.d/
+2025-02-19T10:00:56.207878518Z  + [[ ! -z '' ]]
+2025-02-19T10:00:56.207903726Z  + cat
+2025-02-19T10:00:56.209089225Z  + fix_mount
+2025-02-19T10:00:56.209111409Z  + echo 'INFO: ensuring we can execute mount/umount even with userns-remap'
+2025-02-19T10:00:56.209116701Z  INFO: ensuring we can execute mount/umount even with userns-remap
+2025-02-19T10:00:56.209392454Z  ++ which mount
+2025-02-19T10:00:56.210939209Z  ++ which umount
+2025-02-19T10:00:56.212017026Z  + chown root:root /usr/bin/mount /usr/bin/umount
+2025-02-19T10:00:56.217128048Z  ++ which mount
+2025-02-19T10:00:56.217900275Z  ++ which umount
+2025-02-19T10:00:56.219092771Z  + chmod -s /usr/bin/mount /usr/bin/umount
+2025-02-19T10:00:56.220697185Z  +++ which mount
+2025-02-19T10:00:56.222187141Z  ++ stat -f -c %T /usr/bin/mount
+2025-02-19T10:00:56.223703375Z  + [[ overlayfs == \a\u\f\s ]]
+2025-02-19T10:00:56.223802983Z  + echo 'INFO: remounting /sys read-only'
+2025-02-19T10:00:56.223812496Z  INFO: remounting /sys read-only
+2025-02-19T10:00:56.223823498Z  + mount -o remount,ro /sys
+2025-02-19T10:00:56.226006228Z  + echo 'INFO: making mounts shared'
+2025-02-19T10:00:56.226165332Z  INFO: making mounts shared
+2025-02-19T10:00:56.226175084Z  + mount --make-rshared /
+2025-02-19T10:00:56.227558056Z  + retryable_fix_cgroup
+2025-02-19T10:00:56.227888902Z  ++ seq 0 10
+2025-02-19T10:00:56.228860243Z  + for i in $(seq 0 10)
+2025-02-19T10:00:56.228911362Z  + fix_cgroup
+2025-02-19T10:00:56.228915980Z  + [[ -f /sys/fs/cgroup/cgroup.controllers ]]
+2025-02-19T10:00:56.228919944Z  + echo 'INFO: detected cgroup v2'
+2025-02-19T10:00:56.228924636Z  INFO: detected cgroup v2
+2025-02-19T10:00:56.228939924Z  + return
+2025-02-19T10:00:56.228943720Z  + return
+2025-02-19T10:00:56.229018606Z  + fix_machine_id
+2025-02-19T10:00:56.229025667Z  + echo 'INFO: clearing and regenerating /etc/machine-id'
+2025-02-19T10:00:56.229033413Z  INFO: clearing and regenerating /etc/machine-id
+2025-02-19T10:00:56.229039599Z  + rm -f /etc/machine-id
+2025-02-19T10:00:56.229981554Z  + systemd-machine-id-setup
+2025-02-19T10:00:56.232982054Z  Initializing machine ID from random generator.
+2025-02-19T10:00:56.237084171Z  + fix_product_name
+2025-02-19T10:00:56.237103422Z  + [[ -f /sys/class/dmi/id/product_name ]]
+2025-02-19T10:00:56.237105968Z  + echo 'INFO: faking /sys/class/dmi/id/product_name to be "kind"'
+2025-02-19T10:00:56.237108071Z  INFO: faking /sys/class/dmi/id/product_name to be "kind"
+2025-02-19T10:00:56.237167270Z  + echo kind
+2025-02-19T10:00:56.238427075Z  + mount -o ro,bind /kind/product_name /sys/class/dmi/id/product_name
+2025-02-19T10:00:56.240126282Z  + fix_product_uuid
+2025-02-19T10:00:56.240208782Z  + [[ ! -f /kind/product_uuid ]]
+2025-02-19T10:00:56.240216404Z  + cat /proc/sys/kernel/random/uuid
+2025-02-19T10:00:56.241333698Z  + [[ -f /sys/class/dmi/id/product_uuid ]]
+2025-02-19T10:00:56.241351962Z  + echo 'INFO: faking /sys/class/dmi/id/product_uuid to be random'
+2025-02-19T10:00:56.241355777Z  INFO: faking /sys/class/dmi/id/product_uuid to be random
+2025-02-19T10:00:56.241358980Z  + mount -o ro,bind /kind/product_uuid /sys/class/dmi/id/product_uuid
+2025-02-19T10:00:56.243205882Z  + [[ -f /sys/devices/virtual/dmi/id/product_uuid ]]
+2025-02-19T10:00:56.243228795Z  + echo 'INFO: faking /sys/devices/virtual/dmi/id/product_uuid as well'
+2025-02-19T10:00:56.243233506Z  INFO: faking /sys/devices/virtual/dmi/id/product_uuid as well
+2025-02-19T10:00:56.243248119Z  + mount -o ro,bind /kind/product_uuid /sys/devices/virtual/dmi/id/product_uuid
+2025-02-19T10:00:56.244932247Z  + select_iptables
+2025-02-19T10:00:56.244962183Z  + local mode num_legacy_lines num_nft_lines
+2025-02-19T10:00:56.246095089Z  ++ grep -c '^-'
+2025-02-19T10:00:56.248499595Z  ++ true
+2025-02-19T10:00:56.248763002Z  + num_legacy_lines=0
+2025-02-19T10:00:56.249667394Z  ++ grep -c '^-'
+2025-02-19T10:00:56.255170184Z  + num_nft_lines=6
+2025-02-19T10:00:56.255194849Z  + '[' 0 -ge 6 ']'
+2025-02-19T10:00:56.255199890Z  + mode=nft
+2025-02-19T10:00:56.255203566Z  + echo 'INFO: setting iptables to detected mode: nft'
+2025-02-19T10:00:56.255207505Z  INFO: setting iptables to detected mode: nft
+2025-02-19T10:00:56.255210884Z  + update-alternatives --set iptables /usr/sbin/iptables-nft
+2025-02-19T10:00:56.255228946Z  + echo 'retryable update-alternatives: --set iptables /usr/sbin/iptables-nft'
+2025-02-19T10:00:56.255232288Z  + local 'args=--set iptables /usr/sbin/iptables-nft'
+2025-02-19T10:00:56.255731492Z  ++ seq 0 15
+2025-02-19T10:00:56.257005465Z  + for i in $(seq 0 15)
+2025-02-19T10:00:56.257028163Z  + /usr/bin/update-alternatives --set iptables /usr/sbin/iptables-nft
+2025-02-19T10:00:56.259410161Z  + return
+2025-02-19T10:00:56.259526573Z  + update-alternatives --set ip6tables /usr/sbin/ip6tables-nft
+2025-02-19T10:00:56.259533188Z  + echo 'retryable update-alternatives: --set ip6tables /usr/sbin/ip6tables-nft'
+2025-02-19T10:00:56.259536984Z  + local 'args=--set ip6tables /usr/sbin/ip6tables-nft'
+2025-02-19T10:00:56.260322822Z  ++ seq 0 15
+2025-02-19T10:00:56.260910948Z  + for i in $(seq 0 15)
+2025-02-19T10:00:56.260920506Z  + /usr/bin/update-alternatives --set ip6tables /usr/sbin/ip6tables-nft
+2025-02-19T10:00:56.263429847Z  + return
+2025-02-19T10:00:56.263520862Z  + enable_network_magic
+2025-02-19T10:00:56.263570466Z  + local docker_embedded_dns_ip=127.0.0.11
+2025-02-19T10:00:56.263584459Z  + local docker_host_ip
+2025-02-19T10:00:56.265200753Z  ++ head -n1 /dev/fd/63
+2025-02-19T10:00:56.265235662Z  ++ cut '-d ' -f1
+2025-02-19T10:00:56.266388625Z  +++ timeout 5 getent ahostsv4 host.docker.internal
+2025-02-19T10:00:56.369911951Z  + docker_host_ip=
+2025-02-19T10:00:56.369985418Z  + [[ -z '' ]]
+2025-02-19T10:00:56.370862866Z  ++ ip -4 route show default
+2025-02-19T10:00:56.371108274Z  ++ cut '-d ' -f3
+2025-02-19T10:00:56.373338364Z  + docker_host_ip=192.168.49.1
+2025-02-19T10:00:56.373699964Z  + iptables-save
+2025-02-19T10:00:56.374852580Z  + iptables-restore
+2025-02-19T10:00:56.377829508Z  + sed -e 's/-d 127.0.0.11/-d 192.168.49.1/g' -e 's/-A OUTPUT \(.*\) -j DOCKER_OUTPUT/\0\n-A PREROUTING \1 -j DOCKER_OUTPUT/' -e 's/--to-source :53/--to-source 192.168.49.1:53/g' -e 's/p -j DNAT --to-destination 127.0.0.11/p --dport 53 -j DNAT --to-destination 127.0.0.11/g'
+2025-02-19T10:00:56.389713629Z  + cp /etc/resolv.conf /etc/resolv.conf.original
+2025-02-19T10:00:56.391838116Z  ++ sed -e s/127.0.0.11/192.168.49.1/g /etc/resolv.conf.original
+2025-02-19T10:00:56.393086748Z  + replaced='# Generated by Docker Engine.
+2025-02-19T10:00:56.393102121Z  # This file can be edited; Docker Engine will not make further changes once it
+2025-02-19T10:00:56.393107374Z  # has been modified.
+2025-02-19T10:00:56.393111326Z  
+2025-02-19T10:00:56.393114900Z  nameserver 192.168.49.1
+2025-02-19T10:00:56.393118571Z  search lan
+2025-02-19T10:00:56.393121328Z  options edns0 trust-ad ndots:0
+2025-02-19T10:00:56.393154135Z  
+2025-02-19T10:00:56.393159470Z  # Based on host file: '\''/etc/resolv.conf'\'' (internal resolver)
+2025-02-19T10:00:56.393163028Z  # ExtServers: [8.8.8.8 8.8.4.4]
+2025-02-19T10:00:56.393165782Z  # Overrides: [nameservers]
+2025-02-19T10:00:56.393168539Z  # Option ndots from: internal'
+2025-02-19T10:00:56.393171515Z  + [[ '' == '' ]]
+2025-02-19T10:00:56.393174473Z  + echo '# Generated by Docker Engine.
+2025-02-19T10:00:56.393177403Z  # This file can be edited; Docker Engine will not make further changes once it
+2025-02-19T10:00:56.393181054Z  # has been modified.
+2025-02-19T10:00:56.393185011Z  
+2025-02-19T10:00:56.393187637Z  nameserver 192.168.49.1
+2025-02-19T10:00:56.393190446Z  search lan
+2025-02-19T10:00:56.393193226Z  options edns0 trust-ad ndots:0
+2025-02-19T10:00:56.393195909Z  
+2025-02-19T10:00:56.393198908Z  # Based on host file: '\''/etc/resolv.conf'\'' (internal resolver)
+2025-02-19T10:00:56.393201884Z  # ExtServers: [8.8.8.8 8.8.4.4]
+2025-02-19T10:00:56.393204561Z  # Overrides: [nameservers]
+2025-02-19T10:00:56.393207497Z  # Option ndots from: internal'
+2025-02-19T10:00:56.393289507Z  + files_to_update=('/etc/kubernetes/manifests/etcd.yaml' '/etc/kubernetes/manifests/kube-apiserver.yaml' '/etc/kubernetes/manifests/kube-controller-manager.yaml' '/etc/kubernetes/manifests/kube-scheduler.yaml' '/etc/kubernetes/controller-manager.conf' '/etc/kubernetes/scheduler.conf' '/kind/kubeadm.conf' '/var/lib/kubelet/kubeadm-flags.env')
+2025-02-19T10:00:56.393298281Z  + local files_to_update
+2025-02-19T10:00:56.393302694Z  + local should_fix_certificate=false
+2025-02-19T10:00:56.394579781Z  ++ cut '-d ' -f1
+2025-02-19T10:00:56.394597196Z  ++ head -n1 /dev/fd/63
+2025-02-19T10:00:56.394960736Z  ++++ hostname
+2025-02-19T10:00:56.395882720Z  +++ timeout 5 getent ahostsv4 minikube
+2025-02-19T10:00:56.398649447Z  + curr_ipv4=192.168.49.2
+2025-02-19T10:00:56.398668736Z  + echo 'INFO: Detected IPv4 address: 192.168.49.2'
+2025-02-19T10:00:56.398673179Z  INFO: Detected IPv4 address: 192.168.49.2
+2025-02-19T10:00:56.398676916Z  + '[' -f /kind/old-ipv4 ']'
+2025-02-19T10:00:56.398680296Z  + [[ -n 192.168.49.2 ]]
+2025-02-19T10:00:56.398683351Z  + echo -n 192.168.49.2
+2025-02-19T10:00:56.399493079Z  ++ cut '-d ' -f1
+2025-02-19T10:00:56.399505810Z  ++ head -n1 /dev/fd/63
+2025-02-19T10:00:56.400284988Z  ++++ hostname
+2025-02-19T10:00:56.401063770Z  +++ timeout 5 getent ahostsv6 minikube
+2025-02-19T10:00:56.403431985Z  + curr_ipv6=
+2025-02-19T10:00:56.403450950Z  + echo 'INFO: Detected IPv6 address: '
+2025-02-19T10:00:56.403454596Z  INFO: Detected IPv6 address: 
+2025-02-19T10:00:56.403466777Z  + '[' -f /kind/old-ipv6 ']'
+2025-02-19T10:00:56.403515546Z  + [[ -n '' ]]
+2025-02-19T10:00:56.403519819Z  + false
+2025-02-19T10:00:56.404027846Z  ++ uname -a
+2025-02-19T10:00:56.404889660Z  + echo 'entrypoint completed: Linux minikube 6.8.0-52-generic #53~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jan 15 19:18:46 UTC 2 x86_64 x86_64 x86_64 GNU/Linux'
+2025-02-19T10:00:56.405005095Z  entrypoint completed: Linux minikube 6.8.0-52-generic #53~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jan 15 19:18:46 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+2025-02-19T10:00:56.405103513Z  + exec /sbin/init
+2025-02-19T10:00:56.417694180Z  systemd 249.11-0ubuntu3.12 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+2025-02-19T10:00:56.417718532Z  Detected virtualization docker.
+2025-02-19T10:00:56.417759810Z  Detected architecture x86-64.
+2025-02-19T10:00:56.417846256Z  
+2025-02-19T10:00:56.417852599Z  Welcome to [1mUbuntu 22.04.5 LTS[0m!
+2025-02-19T10:00:56.417857292Z  
+2025-02-19T10:00:56.503214431Z  Queued start job for default target Graphical Interface.
+2025-02-19T10:00:56.508397493Z  [[0;32m  OK  [0m] Created slice [0;1;39mSlice /system/modprobe[0m.
+2025-02-19T10:00:56.508420115Z  [[0;32m  OK  [0m] Started [0;1;39mDispatch Password …ts to Console Directory Watch[0m.
+2025-02-19T10:00:56.508424735Z  [[0;32m  OK  [0m] Set up automount [0;1;39mArbitrary…s File System Automount Point[0m.
+2025-02-19T10:00:56.508428506Z  [[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+2025-02-19T10:00:56.508490386Z  [[0;32m  OK  [0m] Reached target [0;1;39mNetwork is Online[0m.
+2025-02-19T10:00:56.508496509Z  [[0;32m  OK  [0m] Reached target [0;1;39mPath Units[0m.
+2025-02-19T10:00:56.508499884Z  [[0;32m  OK  [0m] Reached target [0;1;39mSlice Units[0m.
+2025-02-19T10:00:56.508503165Z  [[0;32m  OK  [0m] Reached target [0;1;39mSwaps[0m.
+2025-02-19T10:00:56.508506585Z  [[0;32m  OK  [0m] Reached target [0;1;39mLocal Verity Protected Volumes[0m.
+2025-02-19T10:00:56.508815402Z  [[0;32m  OK  [0m] Listening on [0;1;39mJournal Audit Socket[0m.
+2025-02-19T10:00:56.508965268Z  [[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket (/dev/log)[0m.
+2025-02-19T10:00:56.509175726Z  [[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket[0m.
+2025-02-19T10:00:56.511226773Z           Mounting [0;1;39mHuge Pages File System[0m...
+2025-02-19T10:00:56.512141182Z           Mounting [0;1;39mKernel Debug File System[0m...
+2025-02-19T10:00:56.513556811Z           Mounting [0;1;39mKernel Trace File System[0m...
+2025-02-19T10:00:56.515136898Z           Starting [0;1;39mJournal Service[0m...
+2025-02-19T10:00:56.516871958Z           Starting [0;1;39mCreate List of Static Device Nodes[0m...
+2025-02-19T10:00:56.519112215Z           Starting [0;1;39mLoad Kernel Module configfs[0m...
+2025-02-19T10:00:56.520693616Z           Starting [0;1;39mLoad Kernel Module fuse[0m...
+2025-02-19T10:00:56.523138708Z           Starting [0;1;39mRemount Root and Kernel File Systems[0m...
+2025-02-19T10:00:56.526098623Z           Starting [0;1;39mApply Kernel Variables[0m...
+2025-02-19T10:00:56.526147493Z  [[0;32m  OK  [0m] Mounted [0;1;39mHuge Pages File System[0m.
+2025-02-19T10:00:56.526153417Z  [[0;32m  OK  [0m] Mounted [0;1;39mKernel Debug File System[0m.
+2025-02-19T10:00:56.526157220Z  [[0;32m  OK  [0m] Mounted [0;1;39mKernel Trace File System[0m.
+2025-02-19T10:00:56.526160069Z  [[0;32m  OK  [0m] Finished [0;1;39mCreate List of Static Device Nodes[0m.
+2025-02-19T10:00:56.531663248Z  [[0;32m  OK  [0m] Finished [0;1;39mRemount Root and Kernel File Systems[0m.
+2025-02-19T10:00:56.533916744Z           Starting [0;1;39mCreate System Users[0m...
+2025-02-19T10:00:56.538990042Z           Starting [0;1;39mRecord System Boot/Shutdown in UTMP[0m...
+2025-02-19T10:00:56.545305798Z  modprobe@configfs.service: Deactivated successfully.
+2025-02-19T10:00:56.552319390Z  [[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module configfs[0m.
+2025-02-19T10:00:56.552347965Z  modprobe@fuse.service: Deactivated successfully.
+2025-02-19T10:00:56.552352576Z  [[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module fuse[0m.
+2025-02-19T10:00:56.552356318Z  [[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+2025-02-19T10:00:56.558770667Z  [[0;32m  OK  [0m] Finished [0;1;39mRecord System Boot/Shutdown in UTMP[0m.
+2025-02-19T10:00:56.566432750Z           Mounting [0;1;39mFUSE Control File System[0m...
+2025-02-19T10:00:56.568178137Z  [[0;32m  OK  [0m] Started [0;1;39mJournal Service[0m.
+2025-02-19T10:00:56.569116566Z  [[0;32m  OK  [0m] Finished [0;1;39mCreate System Users[0m.
+2025-02-19T10:00:56.572006147Z           Starting [0;1;39mFlush Journal to Persistent Storage[0m...
+2025-02-19T10:00:56.576815614Z           Starting [0;1;39mCreate Static Device Nodes in /dev[0m...
+2025-02-19T10:00:56.577990055Z  [[0;32m  OK  [0m] Mounted [0;1;39mFUSE Control File System[0m.
+2025-02-19T10:00:56.586135114Z  [[0;32m  OK  [0m] Finished [0;1;39mFlush Journal to Persistent Storage[0m.
+2025-02-19T10:00:56.588776370Z  [[0;32m  OK  [0m] Finished [0;1;39mCreate Static Device Nodes in /dev[0m.
+2025-02-19T10:00:56.588799144Z  [[0;32m  OK  [0m] Reached target [0;1;39mPreparation for Local File Systems[0m.
+2025-02-19T10:00:56.589434922Z  [[0;32m  OK  [0m] Reached target [0;1;39mLocal File Systems[0m.
+2025-02-19T10:00:56.589449208Z  [[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
+2025-02-19T10:00:56.590438988Z  [[0;32m  OK  [0m] Started [0;1;39mPodman auto-update timer[0m.
+2025-02-19T10:00:56.590644452Z  [[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
+2025-02-19T10:00:56.591066116Z  [[0;32m  OK  [0m] Reached target [0;1;39mTimer Units[0m.
+2025-02-19T10:00:56.591321209Z  [[0;32m  OK  [0m] Listening on [0;1;39mBuildKit[0m.
+2025-02-19T10:00:56.592729287Z           Starting [0;1;39mDocker Socket for the API[0m...
+2025-02-19T10:00:56.599455746Z           Starting [0;1;39mPodman API Socket[0m...
+2025-02-19T10:00:56.599874036Z  [[0;32m  OK  [0m] Listening on [0;1;39mDocker Socket for the API[0m.
+2025-02-19T10:00:56.600498874Z  [[0;32m  OK  [0m] Listening on [0;1;39mPodman API Socket[0m.
+2025-02-19T10:00:56.600512593Z  [[0;32m  OK  [0m] Reached target [0;1;39mSocket Units[0m.
+2025-02-19T10:00:56.600577358Z  [[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
+2025-02-19T10:00:56.601593601Z           Starting [0;1;39mcontainerd container runtime[0m...
+2025-02-19T10:00:56.604933957Z           Starting [0;1;39mminikube automount[0m...
+2025-02-19T10:00:56.606819353Z           Starting [0;1;39mPodman auto-update service[0m...
+2025-02-19T10:00:56.608792900Z           Starting [0;1;39mPodman Start All …estart Policy Set To Always[0m...
+2025-02-19T10:00:56.609832614Z           Starting [0;1;39mPodman API Service[0m...
+2025-02-19T10:00:56.616085374Z           Starting [0;1;39mOpenBSD Secure Shell server[0m...
+2025-02-19T10:00:56.616158853Z  [[0;32m  OK  [0m] Started [0;1;39mPodman API Service[0m.
+2025-02-19T10:00:56.676994815Z  [[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
+2025-02-19T10:00:56.683164769Z  [[0;32m  OK  [0m] Finished [0;1;39mminikube automount[0m.
+2025-02-19T10:00:56.737152997Z  [[0;32m  OK  [0m] Started [0;1;39mcontainerd container runtime[0m.
+2025-02-19T10:00:56.745501680Z           Starting [0;1;39mDocker Application Container Engine[0m...
+2025-02-19T10:00:56.814201899Z  [[0;32m  OK  [0m] Finished [0;1;39mPodman Start All … Restart Policy Set To Always[0m.
+2025-02-19T10:00:56.957365901Z  [[0;32m  OK  [0m] Finished [0;1;39mPodman auto-update service[0m.
+2025-02-19T10:00:57.108991711Z  [[0;32m  OK  [0m] Started [0;1;39mDocker Application Container Engine[0m.
+2025-02-19T10:00:57.109144403Z  [[0;32m  OK  [0m] Reached target [0;1;39mMulti-User System[0m.
+2025-02-19T10:00:57.109286937Z  [[0;32m  OK  [0m] Reached target [0;1;39mGraphical Interface[0m.
+2025-02-19T10:00:57.114535262Z           Starting [0;1;39mRecord Runlevel Change in UTMP[0m...
+2025-02-19T10:00:57.120893435Z  [[0;32m  OK  [0m] Finished [0;1;39mRecord Runlevel Change in UTMP[0m.
+2025-02-19T10:01:38.923377415Z           Stopping [0;1;39mlibcontainer cont…1019ccfa8396d4b299ff299825c[0m...
+2025-02-19T10:01:38.923404991Z           Stopping [0;1;39mlibcontainer cont…f6221c87beb097583ed0bc6ebe3[0m...
+2025-02-19T10:01:38.923500447Z           Stopping [0;1;39mlibcontainer cont…c5d3356c3d1a0870ba303799927[0m...
+2025-02-19T10:01:38.923508562Z           Stopping [0;1;39mlibcontainer cont…2989452af13c1f625643055a1d4[0m...
+2025-02-19T10:01:38.923513986Z           Stopping [0;1;39mlibcontainer cont…d4f8884a22c050759325d2950c2[0m...
+2025-02-19T10:01:38.923519131Z           Stopping [0;1;39mlibcontainer cont…096d9cbf2a1b3c0077b76dd2bb9[0m...
+2025-02-19T10:01:38.923528832Z           Stopping [0;1;39mlibcontainer cont…a50c56cb54b35433cc03d1ca6dc[0m...
+2025-02-19T10:01:38.923533723Z  [[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/modprobe[0m.
+2025-02-19T10:01:38.924090693Z  [[0;32m  OK  [0m] Stopped target [0;1;39mGraphical Interface[0m.
+2025-02-19T10:01:38.924605419Z  [[0;32m  OK  [0m] Stopped target [0;1;39mMulti-User System[0m.
+2025-02-19T10:01:38.925737773Z  [[0;32m  OK  [0m] Stopped target [0;1;39mTimer Units[0m.
+2025-02-19T10:01:38.925762183Z  [[0;32m  OK  [0m] Stopped [0;1;39mPodman auto-update timer[0m.
+2025-02-19T10:01:38.938130474Z  [[0;32m  OK  [0m] Stopped [0;1;39mDaily Cleanup of Temporary Directories[0m.
+2025-02-19T10:01:38.938156116Z           Stopping [0;1;39mCRI Interface for…pplication Container Engine[0m...
+2025-02-19T10:01:38.938163328Z           Stopping [0;1;39mkubelet: The Kubernetes Node Agent[0m...
+2025-02-19T10:01:38.939683209Z  [[0;32m  OK  [0m] Stopped [0;1;39mPodman Start All C… Restart Policy Set To Always[0m.
+2025-02-19T10:01:38.939690865Z           Stopping [0;1;39mOpenBSD Secure Shell server[0m...
+2025-02-19T10:01:38.939820249Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…72d4f8884a22c050759325d2950c2[0m.
+2025-02-19T10:01:38.939883888Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…94a50c56cb54b35433cc03d1ca6dc[0m.
+2025-02-19T10:01:38.941510109Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…5af6221c87beb097583ed0bc6ebe3[0m.
+2025-02-19T10:01:38.949099493Z  [[0;32m  OK  [0m] Removed slice [0;1;39mlibcontainer…_4352_9f33_4a8b28cb2ff6.slice[0m.
+2025-02-19T10:01:38.953601051Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…cf2989452af13c1f625643055a1d4[0m.
+2025-02-19T10:01:38.957792054Z  [[0;32m  OK  [0m] Stopped [0;1;39mOpenBSD Secure Shell server[0m.
+2025-02-19T10:01:38.962746884Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…40c5d3356c3d1a0870ba303799927[0m.
+2025-02-19T10:01:38.976336554Z  [[0;32m  OK  [0m] Stopped [0;1;39mCRI Interface for … Application Container Engine[0m.
+2025-02-19T10:01:38.979890749Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…801019ccfa8396d4b299ff299825c[0m.
+2025-02-19T10:01:38.986954149Z  [[0;32m  OK  [0m] Removed slice [0;1;39mlibcontainer…_4220_875d_230cf7759bcb.slice[0m.
+2025-02-19T10:01:38.991819015Z  [[0;32m  OK  [0m] Removed slice [0;1;39mlibcontainer…_464f_8bfc_d9aec48fa282.slice[0m.
+2025-02-19T10:01:38.991847808Z           Stopping [0;1;39mDocker Application Container Engine[0m...
+2025-02-19T10:01:39.012329820Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…df096d9cbf2a1b3c0077b76dd2bb9[0m.
+2025-02-19T10:01:39.022598966Z  [[0;32m  OK  [0m] Removed slice [0;1;39mlibcontainer…_4162_80ab_c408c2cd6eda.slice[0m.
+2025-02-19T10:01:39.062458852Z  [[0;32m  OK  [0m] Stopped [0;1;39mkubelet: The Kubernetes Node Agent[0m.
+2025-02-19T10:01:39.598469986Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…4b35433cc03d1ca6dc/mounts/shm[0m.
+2025-02-19T10:01:39.598801552Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…f4c841251a5df6bebdd697/merged[0m.
+2025-02-19T10:01:39.619157719Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…9f48b5cabdc390d550571e/merged[0m.
+2025-02-19T10:01:39.619174372Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…22cfb08391b80bb7801c2e/merged[0m.
+2025-02-19T10:01:40.430876245Z  [[0;32m  OK  [0m] Stopped [0;1;39mDocker Application Container Engine[0m.
+2025-02-19T10:01:40.431175742Z  [[0;32m  OK  [0m] Stopped target [0;1;39mNetwork is Online[0m.
+2025-02-19T10:01:40.431485323Z           Stopping [0;1;39mcontainerd container runtime[0m...
+2025-02-19T10:01:40.431497495Z  [[0;32m  OK  [0m] Stopped [0;1;39mminikube automount[0m.
+2025-02-19T10:01:40.440083540Z  [[0;32m  OK  [0m] Stopped [0;1;39mcontainerd container runtime[0m.
+2025-02-19T10:01:40.440684277Z  [[0;32m  OK  [0m] Stopped target [0;1;39mBasic System[0m.
+2025-02-19T10:01:40.440708178Z  [[0;32m  OK  [0m] Stopped target [0;1;39mPath Units[0m.
+2025-02-19T10:01:40.440776372Z  [[0;32m  OK  [0m] Stopped target [0;1;39mSlice Units[0m.
+2025-02-19T10:01:40.440784379Z  [[0;32m  OK  [0m] Stopped target [0;1;39mSocket Units[0m.
+2025-02-19T10:01:40.440806038Z  [[0;32m  OK  [0m] Closed [0;1;39mBuildKit[0m.
+2025-02-19T10:01:40.441634334Z  [[0;32m  OK  [0m] Closed [0;1;39mCRI Docker Socket for the API[0m.
+2025-02-19T10:01:40.442523442Z  [[0;32m  OK  [0m] Closed [0;1;39mDocker Socket for the API[0m.
+2025-02-19T10:01:40.443491111Z  [[0;32m  OK  [0m] Closed [0;1;39mPodman API Socket[0m.
+2025-02-19T10:01:40.443506050Z  [[0;32m  OK  [0m] Stopped target [0;1;39mSystem Initialization[0m.
+2025-02-19T10:01:40.443509865Z  [[0;32m  OK  [0m] Unset automount [0;1;39mArbitrary …s File System Automount Point[0m.
+2025-02-19T10:01:40.443513489Z  [[0;32m  OK  [0m] Stopped target [0;1;39mLocal Encrypted Volumes[0m.
+2025-02-19T10:01:40.448352454Z  [[0;32m  OK  [0m] Stopped [0;1;39mDispatch Password …ts to Console Directory Watch[0m.
+2025-02-19T10:01:40.448389610Z  [[0;32m  OK  [0m] Stopped target [0;1;39mLocal File Systems[0m.
+2025-02-19T10:01:40.448464920Z  [[0;32m  OK  [0m] Stopped target [0;1;39mLocal Verity Protected Volumes[0m.
+2025-02-19T10:01:40.458071221Z           Unmounting [0;1;39m/data[0m...
+2025-02-19T10:01:40.458097800Z           Unmounting [0;1;39m/etc/hostname[0m...
+2025-02-19T10:01:40.460500125Z           Unmounting [0;1;39m/etc/hosts[0m...
+2025-02-19T10:01:40.462385459Z           Unmounting [0;1;39m/etc/resolv.conf[0m...
+2025-02-19T10:01:40.465222364Z           Unmounting [0;1;39m/kind/product_uuid[0m...
+2025-02-19T10:01:40.467006156Z           Unmounting [0;1;39m/run/credentials/systemd-sysusers.service[0m...
+2025-02-19T10:01:40.468882428Z           Unmounting [0;1;39m/run/docker/netns/default[0m...
+2025-02-19T10:01:40.471720438Z           Unmounting [0;1;39m/tmp/hostpath-provisioner[0m...
+2025-02-19T10:01:40.474850016Z           Unmounting [0;1;39m/tmp/hostpath_pv[0m...
+2025-02-19T10:01:40.476454844Z           Unmounting [0;1;39m/usr/lib/modules[0m...
+2025-02-19T10:01:40.478451505Z           Unmounting [0;1;39m/var/lib/docker…c1f625643055a1d4/mounts/shm[0m...
+2025-02-19T10:01:40.483895990Z           Unmounting [0;1;39m/var/lib/docker…b17f7bdbf46c5cdd/mounts/shm[0m...
+2025-02-19T10:01:40.483920894Z           Unmounting [0;1;39m/var/lib/docker…cc3f06ca4e4e7944/mounts/shm[0m...
+2025-02-19T10:01:40.487585013Z           Unmounting [0;1;39m/var/lib/docker…050759325d2950c2/mounts/shm[0m...
+2025-02-19T10:01:40.487712082Z           Unmounting [0;1;39m/var/lib/docker…0368663cc7c26a74/mounts/shm[0m...
+2025-02-19T10:01:40.490679878Z           Unmounting [0;1;39m/var/lib/docker…5f3e80f0d373f517/mounts/shm[0m...
+2025-02-19T10:01:40.494701339Z           Unmounting [0;1;39m/var/lib/docker…af9ca71b766967ba1262/merged[0m...
+2025-02-19T10:01:40.496476530Z           Unmounting [0;1;39m/var/lib/docker…0d9a8d451e4bd5eb1776/merged[0m...
+2025-02-19T10:01:40.498249563Z           Unmounting [0;1;39m/var/lib/docker…521b30f053de1f72f115/merged[0m...
+2025-02-19T10:01:40.500346959Z           Unmounting [0;1;39m/var/lib/docker…02d709a764022ed734fb/merged[0m...
+2025-02-19T10:01:40.502336707Z           Unmounting [0;1;39m/var/lib/docker…1e13b290c607371c9eb4/merged[0m...
+2025-02-19T10:01:40.504205348Z           Unmounting [0;1;39m/var/lib/docker…e7c2fd9c57c387a38d20/merged[0m...
+2025-02-19T10:01:40.507968976Z           Unmounting [0;1;39m/var/lib/docker…4bbc003abfaf36568b6d/merged[0m...
+2025-02-19T10:01:40.510693243Z           Unmounting [0;1;39m/var/lib/docker…8a7ddf0a6d0d224254e9/merged[0m...
+2025-02-19T10:01:40.512368347Z           Unmounting [0;1;39m/var/lib/docker…603a080b3308422c3107/merged[0m...
+2025-02-19T10:01:40.515481068Z           Unmounting [0;1;39m/var/lib/docker…4264b90b68c2cc739e6e/merged[0m...
+2025-02-19T10:01:40.516211461Z           Unmounting [0;1;39m/var/lib/docker…03eec2eb5221b50afbdc/merged[0m...
+2025-02-19T10:01:40.518114396Z           Unmounting [0;1;39m/var/lib/kubele…ected/kube-api-access-ns26m[0m...
+2025-02-19T10:01:40.521368840Z           Unmounting [0;1;39m/var/lib/kubele…ected/kube-api-access-9dprw[0m...
+2025-02-19T10:01:40.521680091Z           Unmounting [0;1;39m/var/lib/kubele…ected/kube-api-access-sbnlz[0m...
+2025-02-19T10:01:40.525655907Z           Unmounting [0;1;39m/var/lib/kubele…ected/kube-api-access-cv25v[0m...
+2025-02-19T10:01:40.525923130Z  [[0;32m  OK  [0m] Stopped [0;1;39mApply Kernel Variables[0m.
+2025-02-19T10:01:40.527726152Z           Stopping [0;1;39mRecord System Boot/Shutdown in UTMP[0m...
+2025-02-19T10:01:40.534365418Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/data[0m.
+2025-02-19T10:01:40.535072167Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/etc/hostname[0m.
+2025-02-19T10:01:40.535987801Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/etc/hosts[0m.
+2025-02-19T10:01:40.536878470Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/etc/resolv.conf[0m.
+2025-02-19T10:01:40.537552540Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/kind/product_uuid[0m.
+2025-02-19T10:01:40.538648488Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/run/credentials/systemd-sysusers.service[0m.
+2025-02-19T10:01:40.539644313Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/run/docker/netns/default[0m.
+2025-02-19T10:01:40.540993727Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/tmp/hostpath-provisioner[0m.
+2025-02-19T10:01:40.541986405Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/tmp/hostpath_pv[0m.
+2025-02-19T10:01:40.543010808Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/usr/lib/modules[0m.
+2025-02-19T10:01:40.543831744Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…13c1f625643055a1d4/mounts/shm[0m.
+2025-02-19T10:01:40.544865445Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…87b17f7bdbf46c5cdd/mounts/shm[0m.
+2025-02-19T10:01:40.545591218Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…1acc3f06ca4e4e7944/mounts/shm[0m.
+2025-02-19T10:01:40.546503929Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…2c050759325d2950c2/mounts/shm[0m.
+2025-02-19T10:01:40.546888713Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…1a0368663cc7c26a74/mounts/shm[0m.
+2025-02-19T10:01:40.547625319Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…ae5f3e80f0d373f517/mounts/shm[0m.
+2025-02-19T10:01:40.548641330Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…0baf9ca71b766967ba1262/merged[0m.
+2025-02-19T10:01:40.549331656Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…c90d9a8d451e4bd5eb1776/merged[0m.
+2025-02-19T10:01:40.549990818Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…3c521b30f053de1f72f115/merged[0m.
+2025-02-19T10:01:40.550784004Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…c602d709a764022ed734fb/merged[0m.
+2025-02-19T10:01:40.551405319Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…b71e13b290c607371c9eb4/merged[0m.
+2025-02-19T10:01:40.551961026Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…03e7c2fd9c57c387a38d20/merged[0m.
+2025-02-19T10:01:40.552559520Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…0c4bbc003abfaf36568b6d/merged[0m.
+2025-02-19T10:01:40.553217487Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…088a7ddf0a6d0d224254e9/merged[0m.
+2025-02-19T10:01:40.553948858Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…1f603a080b3308422c3107/merged[0m.
+2025-02-19T10:01:40.554614164Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…3e4264b90b68c2cc739e6e/merged[0m.
+2025-02-19T10:01:40.555211664Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…bc03eec2eb5221b50afbdc/merged[0m.
+2025-02-19T10:01:40.555879171Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/kubelet…ojected/kube-api-access-ns26m[0m.
+2025-02-19T10:01:40.558374473Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/kubelet…ojected/kube-api-access-9dprw[0m.
+2025-02-19T10:01:40.558399318Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/kubelet…ojected/kube-api-access-sbnlz[0m.
+2025-02-19T10:01:40.559142409Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/kubelet…ojected/kube-api-access-cv25v[0m.
+2025-02-19T10:01:40.571801744Z           Unmounting [0;1;39m/tmp[0m...
+2025-02-19T10:01:40.572414151Z  [[0;32m  OK  [0m] Stopped [0;1;39mRecord System Boot/Shutdown in UTMP[0m.
+2025-02-19T10:01:40.575350449Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/tmp[0m.
+2025-02-19T10:01:40.575502703Z  [[0;32m  OK  [0m] Stopped target [0;1;39mSwaps[0m.
+2025-02-19T10:01:40.576732160Z           Unmounting [0;1;39m/var[0m...
+2025-02-19T10:01:40.579997349Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var[0m.
+2025-02-19T10:01:40.580139179Z  [[0;32m  OK  [0m] Stopped target [0;1;39mPreparation for Local File Systems[0m.
+2025-02-19T10:01:40.580215247Z  [[0;32m  OK  [0m] Reached target [0;1;39mUnmount All Filesystems[0m.
+2025-02-19T10:01:40.580293371Z  [[0;32m  OK  [0m] Stopped [0;1;39mCreate Static Device Nodes in /dev[0m.
+2025-02-19T10:01:40.580651044Z  [[0;32m  OK  [0m] Stopped [0;1;39mCreate System Users[0m.
+2025-02-19T10:01:40.580657721Z  [[0;32m  OK  [0m] Stopped [0;1;39mRemount Root and Kernel File Systems[0m.
+2025-02-19T10:01:40.580714940Z  [[0;32m  OK  [0m] Reached target [0;1;39mSystem Shutdown[0m.
+2025-02-19T10:01:40.580722203Z  [[0;32m  OK  [0m] Reached target [0;1;39mLate Shutdown Services[0m.
+2025-02-19T10:01:40.581884449Z           Starting [0;1;39mSystem Halt[0m...
+2025-02-19T10:01:40.621713318Z  Sending SIGTERM to remaining processes...
+2025-02-19T10:01:40.629607643Z  Sending SIGKILL to remaining processes...
+2025-02-19T10:01:40.631565450Z  All filesystems, swaps, loop devices, MD devices and DM devices detached.
+2025-02-19T10:01:40.632557315Z  Halting system.
+
+-- /stdout --
+I0219 15:32:41.836836  363534 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0219 15:32:41.859169  363534 info.go:266] docker info: {ID:3ac1b4e5-c9dc-4b6c-9332-9c65501d5aa3 Containers:18 ContainersRunning:1 ContainersPaused:0 ContainersStopped:17 Images:63 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:34 OomKillDisable:false NGoroutines:53 SystemTime:2025-02-19 15:32:41.850782392 +0530 IST LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-52-generic OperatingSystem:Ubuntu 22.04.5 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:16645636096 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:moshe Labels:[] ExperimentalBuild:false ServerVersion:26.1.3 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I0219 15:32:41.859210  363534 errors.go:98] postmortem docker info: {ID:3ac1b4e5-c9dc-4b6c-9332-9c65501d5aa3 Containers:18 ContainersRunning:1 ContainersPaused:0 ContainersStopped:17 Images:63 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:34 OomKillDisable:false NGoroutines:53 SystemTime:2025-02-19 15:32:41.850782392 +0530 IST LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-52-generic OperatingSystem:Ubuntu 22.04.5 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:16645636096 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:moshe Labels:[] ExperimentalBuild:false ServerVersion:26.1.3 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I0219 15:32:41.859258  363534 network_create.go:284] running [docker network inspect minikube] to gather additional debugging logs...
+I0219 15:32:41.859267  363534 cli_runner.go:164] Run: docker network inspect minikube
+I0219 15:32:41.872824  363534 network_create.go:289] output of [docker network inspect minikube]: -- stdout --
+[
+    {
+        "Name": "minikube",
+        "Id": "870d12096fab4840f670e9f2d5ae017795cb5b25118dd8ea9fdcbaa62ca0951a",
+        "Created": "2025-02-19T15:32:14.660977108+05:30",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "192.168.58.0/24",
+                    "Gateway": "192.168.58.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "b227e0500e05acf03e530aff12b2fc3471cae23fc74e76722c866f0452b0ac6e": {
+                "Name": "minikube-m03",
+                "EndpointID": "55b15f518078aeb98620c3db1373bcdc3ff9f4b8ff9aa390932368800f7fd12e",
+                "MacAddress": "02:42:c0:a8:3a:04",
+                "IPv4Address": "192.168.58.4/24",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "--icc": "",
+            "--ip-masq": "",
+            "com.docker.network.driver.mtu": "1500"
+        },
+        "Labels": {
+            "created_by.minikube.sigs.k8s.io": "true",
+            "name.minikube.sigs.k8s.io": "minikube"
+        }
+    }
+]
+
+-- /stdout --
+I0219 15:32:41.872909  363534 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0219 15:32:41.892162  363534 info.go:266] docker info: {ID:3ac1b4e5-c9dc-4b6c-9332-9c65501d5aa3 Containers:18 ContainersRunning:1 ContainersPaused:0 ContainersStopped:17 Images:63 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:34 OomKillDisable:false NGoroutines:53 SystemTime:2025-02-19 15:32:41.884567154 +0530 IST LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-52-generic OperatingSystem:Ubuntu 22.04.5 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:16645636096 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:moshe Labels:[] ExperimentalBuild:false ServerVersion:26.1.3 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I0219 15:32:41.892265  363534 ssh_runner.go:195] Run: sh -c "df -h /var | awk 'NR==2{print $5}'"
+I0219 15:32:41.892292  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:41.907720  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:41.907839  363534 retry.go:31] will retry after 233.528384ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:42.142531  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:42.188658  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:42.188795  363534 retry.go:31] will retry after 432.564559ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:42.622155  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:42.645471  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:42.645590  363534 retry.go:31] will retry after 379.878701ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:43.026139  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:43.049857  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0219 15:32:43.050003  363534 start.go:268] error running df -h /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+W0219 15:32:43.050015  363534 start.go:235] error getting percentage of /var that is free: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:43.050085  363534 ssh_runner.go:195] Run: sh -c "df -BG /var | awk 'NR==2{print $4}'"
+I0219 15:32:43.050128  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:43.072176  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:43.072280  363534 retry.go:31] will retry after 209.129224ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:43.281858  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:43.335251  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:43.335346  363534 retry.go:31] will retry after 292.668786ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:43.629139  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:43.675215  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:43.675336  363534 retry.go:31] will retry after 317.352943ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:43.993024  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:44.035670  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0219 15:32:44.035816  363534 start.go:283] error running df -BG /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+W0219 15:32:44.035829  363534 start.go:240] error getting GiB of /var that is available: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:44.035836  363534 fix.go:56] duration metric: took 2.308199838s for fixHost
+I0219 15:32:44.035842  363534 start.go:83] releasing machines lock for "minikube", held for 2.308216973s
+W0219 15:32:44.035857  363534 start.go:714] error starting host: driver start: start: docker start minikube: exit status 1
+stdout:
+
+stderr:
+Error response from daemon: network 789e213671576568e676ae6574a4955cd5b7dbda4010c6fa60f7abe11f858a9e not found
+Error: failed to start containers: minikube
+W0219 15:32:44.035914  363534 out.go:270] 🤦  StartHost failed, but will try again: driver start: start: docker start minikube: exit status 1
+stdout:
+
+stderr:
+Error response from daemon: network 789e213671576568e676ae6574a4955cd5b7dbda4010c6fa60f7abe11f858a9e not found
+Error: failed to start containers: minikube
+
+I0219 15:32:44.035937  363534 start.go:729] Will try again in 5 seconds ...
+I0219 15:32:49.037237  363534 start.go:360] acquireMachinesLock for minikube: {Name:mk3d61000a4c6b8aca8e06991300602fbe1ae36a Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0219 15:32:49.037395  363534 start.go:364] duration metric: took 113.276µs to acquireMachinesLock for "minikube"
+I0219 15:32:49.037432  363534 start.go:96] Skipping create...Using existing machine configuration
+I0219 15:32:49.037478  363534 fix.go:54] fixHost starting: 
+I0219 15:32:49.038188  363534 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+I0219 15:32:49.079416  363534 fix.go:112] recreateIfNeeded on minikube: state=Stopped err=<nil>
+W0219 15:32:49.079433  363534 fix.go:138] unexpected machine state, will restart: <nil>
+I0219 15:32:49.109775  363534 out.go:177] 🔄  Restarting existing docker container for "minikube" ...
+I0219 15:32:49.114281  363534 cli_runner.go:164] Run: docker start minikube
+W0219 15:32:49.160940  363534 cli_runner.go:211] docker start minikube returned with exit code 1
+I0219 15:32:49.160989  363534 cli_runner.go:164] Run: docker inspect minikube
+I0219 15:32:49.178354  363534 errors.go:84] Postmortem inspect ("docker inspect minikube"): -- stdout --
+[
+    {
+        "Id": "e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e",
+        "Created": "2025-02-19T10:00:55.811917682Z",
+        "Path": "/usr/local/bin/entrypoint",
+        "Args": [
+            "/sbin/init"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 130,
+            "Error": "network 789e213671576568e676ae6574a4955cd5b7dbda4010c6fa60f7abe11f858a9e not found",
+            "StartedAt": "2025-02-19T10:00:56.200095143Z",
+            "FinishedAt": "2025-02-19T10:01:40.647830819Z"
+        },
+        "Image": "sha256:e72c4cbe9b296d8a58fbcae1a7b969fa1cee662cd7b86f2d4efc5e146519cf0a",
+        "ResolvConfPath": "/var/lib/docker/containers/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e/hostname",
+        "HostsPath": "/var/lib/docker/containers/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e/hosts",
+        "LogPath": "/var/lib/docker/containers/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e/e6a5cbc2060765caa2af170ba104ded6d610f4eb0ee4af02d50bb9dc59832b8e-json.log",
+        "Name": "/minikube",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "unconfined",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/lib/modules:/lib/modules:ro",
+                "minikube:/var"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "minikube",
+            "PortBindings": {
+                "22/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ],
+                "2376/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ],
+                "32443/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ],
+                "5000/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ],
+                "8443/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": ""
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": true,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "seccomp=unconfined",
+                "apparmor=unconfined",
+                "label=disable"
+            ],
+            "Tmpfs": {
+                "/run": "",
+                "/tmp": ""
+            },
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 8589934592,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 17179869184,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": null,
+            "ReadonlyPaths": null
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/a1f657456d0c221d8e6e34ddadca98d6fb47197b578469e1998380ec12898fcf-init/diff:/var/lib/docker/overlay2/dc0fc1630ca7a60d7448d7e3a60b14c487bf2d9eaf0b548e5309b18ee94e3545/diff",
+                "MergedDir": "/var/lib/docker/overlay2/a1f657456d0c221d8e6e34ddadca98d6fb47197b578469e1998380ec12898fcf/merged",
+                "UpperDir": "/var/lib/docker/overlay2/a1f657456d0c221d8e6e34ddadca98d6fb47197b578469e1998380ec12898fcf/diff",
+                "WorkDir": "/var/lib/docker/overlay2/a1f657456d0c221d8e6e34ddadca98d6fb47197b578469e1998380ec12898fcf/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/lib/modules",
+                "Destination": "/lib/modules",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "minikube",
+                "Source": "/var/lib/docker/volumes/minikube/_data",
+                "Destination": "/var",
+                "Driver": "local",
+                "Mode": "z",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "minikube",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "22/tcp": {},
+                "2376/tcp": {},
+                "32443/tcp": {},
+                "5000/tcp": {},
+                "8443/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "container=docker",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": null,
+            "Image": "gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/usr/local/bin/entrypoint",
+                "/sbin/init"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "created_by.minikube.sigs.k8s.io": "true",
+                "mode.minikube.sigs.k8s.io": "minikube",
+                "name.minikube.sigs.k8s.io": "minikube",
+                "role.minikube.sigs.k8s.io": ""
+            },
+            "StopSignal": "SIGRTMIN+3"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "68eee8d7d2e24da5e247f4d1e0ca2daa00ebd57fc911a82a9130e7ec7af91958",
+            "SandboxKey": "/var/run/docker/netns/68eee8d7d2e2",
+            "Ports": {},
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "minikube": {
+                    "IPAMConfig": {
+                        "IPv4Address": "192.168.49.2"
+                    },
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "",
+                    "NetworkID": "789e213671576568e676ae6574a4955cd5b7dbda4010c6fa60f7abe11f858a9e",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DriverOpts": null,
+                    "DNSNames": [
+                        "minikube",
+                        "e6a5cbc20607"
+                    ]
+                }
+            }
+        }
+    }
+]
+
+-- /stdout --
+I0219 15:32:49.178407  363534 cli_runner.go:164] Run: docker logs --timestamps --details minikube
+I0219 15:32:49.198123  363534 errors.go:91] Postmortem logs ("docker logs --timestamps --details minikube"): -- stdout --
+2025-02-19T10:00:56.200817716Z  + userns=
+2025-02-19T10:00:56.200902432Z  + grep -Eqv '0[[:space:]]+0[[:space:]]+4294967295' /proc/self/uid_map
+2025-02-19T10:00:56.204081125Z  + validate_userns
+2025-02-19T10:00:56.204100876Z  + [[ -z '' ]]
+2025-02-19T10:00:56.204105196Z  + return
+2025-02-19T10:00:56.204114652Z  + configure_containerd
+2025-02-19T10:00:56.204182769Z  + local snapshotter=
+2025-02-19T10:00:56.204189660Z  + [[ -n '' ]]
+2025-02-19T10:00:56.204231645Z  + [[ -z '' ]]
+2025-02-19T10:00:56.204632214Z  ++ stat -f -c %T /kind
+2025-02-19T10:00:56.205953258Z  + container_filesystem=overlayfs
+2025-02-19T10:00:56.205976813Z  + [[ overlayfs == \z\f\s ]]
+2025-02-19T10:00:56.205982298Z  + [[ -n '' ]]
+2025-02-19T10:00:56.205987066Z  + configure_proxy
+2025-02-19T10:00:56.206417241Z  + mkdir -p /etc/systemd/system.conf.d/
+2025-02-19T10:00:56.207878518Z  + [[ ! -z '' ]]
+2025-02-19T10:00:56.207903726Z  + cat
+2025-02-19T10:00:56.209089225Z  + fix_mount
+2025-02-19T10:00:56.209111409Z  + echo 'INFO: ensuring we can execute mount/umount even with userns-remap'
+2025-02-19T10:00:56.209116701Z  INFO: ensuring we can execute mount/umount even with userns-remap
+2025-02-19T10:00:56.209392454Z  ++ which mount
+2025-02-19T10:00:56.210939209Z  ++ which umount
+2025-02-19T10:00:56.212017026Z  + chown root:root /usr/bin/mount /usr/bin/umount
+2025-02-19T10:00:56.217128048Z  ++ which mount
+2025-02-19T10:00:56.217900275Z  ++ which umount
+2025-02-19T10:00:56.219092771Z  + chmod -s /usr/bin/mount /usr/bin/umount
+2025-02-19T10:00:56.220697185Z  +++ which mount
+2025-02-19T10:00:56.222187141Z  ++ stat -f -c %T /usr/bin/mount
+2025-02-19T10:00:56.223703375Z  + [[ overlayfs == \a\u\f\s ]]
+2025-02-19T10:00:56.223802983Z  + echo 'INFO: remounting /sys read-only'
+2025-02-19T10:00:56.223812496Z  INFO: remounting /sys read-only
+2025-02-19T10:00:56.223823498Z  + mount -o remount,ro /sys
+2025-02-19T10:00:56.226006228Z  + echo 'INFO: making mounts shared'
+2025-02-19T10:00:56.226165332Z  INFO: making mounts shared
+2025-02-19T10:00:56.226175084Z  + mount --make-rshared /
+2025-02-19T10:00:56.227558056Z  + retryable_fix_cgroup
+2025-02-19T10:00:56.227888902Z  ++ seq 0 10
+2025-02-19T10:00:56.228860243Z  + for i in $(seq 0 10)
+2025-02-19T10:00:56.228911362Z  + fix_cgroup
+2025-02-19T10:00:56.228915980Z  + [[ -f /sys/fs/cgroup/cgroup.controllers ]]
+2025-02-19T10:00:56.228919944Z  + echo 'INFO: detected cgroup v2'
+2025-02-19T10:00:56.228924636Z  INFO: detected cgroup v2
+2025-02-19T10:00:56.228939924Z  + return
+2025-02-19T10:00:56.228943720Z  + return
+2025-02-19T10:00:56.229018606Z  + fix_machine_id
+2025-02-19T10:00:56.229025667Z  + echo 'INFO: clearing and regenerating /etc/machine-id'
+2025-02-19T10:00:56.229033413Z  INFO: clearing and regenerating /etc/machine-id
+2025-02-19T10:00:56.229039599Z  + rm -f /etc/machine-id
+2025-02-19T10:00:56.229981554Z  + systemd-machine-id-setup
+2025-02-19T10:00:56.232982054Z  Initializing machine ID from random generator.
+2025-02-19T10:00:56.237084171Z  + fix_product_name
+2025-02-19T10:00:56.237103422Z  + [[ -f /sys/class/dmi/id/product_name ]]
+2025-02-19T10:00:56.237105968Z  + echo 'INFO: faking /sys/class/dmi/id/product_name to be "kind"'
+2025-02-19T10:00:56.237108071Z  INFO: faking /sys/class/dmi/id/product_name to be "kind"
+2025-02-19T10:00:56.237167270Z  + echo kind
+2025-02-19T10:00:56.238427075Z  + mount -o ro,bind /kind/product_name /sys/class/dmi/id/product_name
+2025-02-19T10:00:56.240126282Z  + fix_product_uuid
+2025-02-19T10:00:56.240208782Z  + [[ ! -f /kind/product_uuid ]]
+2025-02-19T10:00:56.240216404Z  + cat /proc/sys/kernel/random/uuid
+2025-02-19T10:00:56.241333698Z  + [[ -f /sys/class/dmi/id/product_uuid ]]
+2025-02-19T10:00:56.241351962Z  + echo 'INFO: faking /sys/class/dmi/id/product_uuid to be random'
+2025-02-19T10:00:56.241355777Z  INFO: faking /sys/class/dmi/id/product_uuid to be random
+2025-02-19T10:00:56.241358980Z  + mount -o ro,bind /kind/product_uuid /sys/class/dmi/id/product_uuid
+2025-02-19T10:00:56.243205882Z  + [[ -f /sys/devices/virtual/dmi/id/product_uuid ]]
+2025-02-19T10:00:56.243228795Z  + echo 'INFO: faking /sys/devices/virtual/dmi/id/product_uuid as well'
+2025-02-19T10:00:56.243233506Z  INFO: faking /sys/devices/virtual/dmi/id/product_uuid as well
+2025-02-19T10:00:56.243248119Z  + mount -o ro,bind /kind/product_uuid /sys/devices/virtual/dmi/id/product_uuid
+2025-02-19T10:00:56.244932247Z  + select_iptables
+2025-02-19T10:00:56.244962183Z  + local mode num_legacy_lines num_nft_lines
+2025-02-19T10:00:56.246095089Z  ++ grep -c '^-'
+2025-02-19T10:00:56.248499595Z  ++ true
+2025-02-19T10:00:56.248763002Z  + num_legacy_lines=0
+2025-02-19T10:00:56.249667394Z  ++ grep -c '^-'
+2025-02-19T10:00:56.255170184Z  + num_nft_lines=6
+2025-02-19T10:00:56.255194849Z  + '[' 0 -ge 6 ']'
+2025-02-19T10:00:56.255199890Z  + mode=nft
+2025-02-19T10:00:56.255203566Z  + echo 'INFO: setting iptables to detected mode: nft'
+2025-02-19T10:00:56.255207505Z  INFO: setting iptables to detected mode: nft
+2025-02-19T10:00:56.255210884Z  + update-alternatives --set iptables /usr/sbin/iptables-nft
+2025-02-19T10:00:56.255228946Z  + echo 'retryable update-alternatives: --set iptables /usr/sbin/iptables-nft'
+2025-02-19T10:00:56.255232288Z  + local 'args=--set iptables /usr/sbin/iptables-nft'
+2025-02-19T10:00:56.255731492Z  ++ seq 0 15
+2025-02-19T10:00:56.257005465Z  + for i in $(seq 0 15)
+2025-02-19T10:00:56.257028163Z  + /usr/bin/update-alternatives --set iptables /usr/sbin/iptables-nft
+2025-02-19T10:00:56.259410161Z  + return
+2025-02-19T10:00:56.259526573Z  + update-alternatives --set ip6tables /usr/sbin/ip6tables-nft
+2025-02-19T10:00:56.259533188Z  + echo 'retryable update-alternatives: --set ip6tables /usr/sbin/ip6tables-nft'
+2025-02-19T10:00:56.259536984Z  + local 'args=--set ip6tables /usr/sbin/ip6tables-nft'
+2025-02-19T10:00:56.260322822Z  ++ seq 0 15
+2025-02-19T10:00:56.260910948Z  + for i in $(seq 0 15)
+2025-02-19T10:00:56.260920506Z  + /usr/bin/update-alternatives --set ip6tables /usr/sbin/ip6tables-nft
+2025-02-19T10:00:56.263429847Z  + return
+2025-02-19T10:00:56.263520862Z  + enable_network_magic
+2025-02-19T10:00:56.263570466Z  + local docker_embedded_dns_ip=127.0.0.11
+2025-02-19T10:00:56.263584459Z  + local docker_host_ip
+2025-02-19T10:00:56.265200753Z  ++ head -n1 /dev/fd/63
+2025-02-19T10:00:56.265235662Z  ++ cut '-d ' -f1
+2025-02-19T10:00:56.266388625Z  +++ timeout 5 getent ahostsv4 host.docker.internal
+2025-02-19T10:00:56.369911951Z  + docker_host_ip=
+2025-02-19T10:00:56.369985418Z  + [[ -z '' ]]
+2025-02-19T10:00:56.370862866Z  ++ ip -4 route show default
+2025-02-19T10:00:56.371108274Z  ++ cut '-d ' -f3
+2025-02-19T10:00:56.373338364Z  + docker_host_ip=192.168.49.1
+2025-02-19T10:00:56.373699964Z  + iptables-save
+2025-02-19T10:00:56.374852580Z  + iptables-restore
+2025-02-19T10:00:56.377829508Z  + sed -e 's/-d 127.0.0.11/-d 192.168.49.1/g' -e 's/-A OUTPUT \(.*\) -j DOCKER_OUTPUT/\0\n-A PREROUTING \1 -j DOCKER_OUTPUT/' -e 's/--to-source :53/--to-source 192.168.49.1:53/g' -e 's/p -j DNAT --to-destination 127.0.0.11/p --dport 53 -j DNAT --to-destination 127.0.0.11/g'
+2025-02-19T10:00:56.389713629Z  + cp /etc/resolv.conf /etc/resolv.conf.original
+2025-02-19T10:00:56.391838116Z  ++ sed -e s/127.0.0.11/192.168.49.1/g /etc/resolv.conf.original
+2025-02-19T10:00:56.393086748Z  + replaced='# Generated by Docker Engine.
+2025-02-19T10:00:56.393102121Z  # This file can be edited; Docker Engine will not make further changes once it
+2025-02-19T10:00:56.393107374Z  # has been modified.
+2025-02-19T10:00:56.393111326Z  
+2025-02-19T10:00:56.393114900Z  nameserver 192.168.49.1
+2025-02-19T10:00:56.393118571Z  search lan
+2025-02-19T10:00:56.393121328Z  options edns0 trust-ad ndots:0
+2025-02-19T10:00:56.393154135Z  
+2025-02-19T10:00:56.393159470Z  # Based on host file: '\''/etc/resolv.conf'\'' (internal resolver)
+2025-02-19T10:00:56.393163028Z  # ExtServers: [8.8.8.8 8.8.4.4]
+2025-02-19T10:00:56.393165782Z  # Overrides: [nameservers]
+2025-02-19T10:00:56.393168539Z  # Option ndots from: internal'
+2025-02-19T10:00:56.393171515Z  + [[ '' == '' ]]
+2025-02-19T10:00:56.393174473Z  + echo '# Generated by Docker Engine.
+2025-02-19T10:00:56.393177403Z  # This file can be edited; Docker Engine will not make further changes once it
+2025-02-19T10:00:56.393181054Z  # has been modified.
+2025-02-19T10:00:56.393185011Z  
+2025-02-19T10:00:56.393187637Z  nameserver 192.168.49.1
+2025-02-19T10:00:56.393190446Z  search lan
+2025-02-19T10:00:56.393193226Z  options edns0 trust-ad ndots:0
+2025-02-19T10:00:56.393195909Z  
+2025-02-19T10:00:56.393198908Z  # Based on host file: '\''/etc/resolv.conf'\'' (internal resolver)
+2025-02-19T10:00:56.393201884Z  # ExtServers: [8.8.8.8 8.8.4.4]
+2025-02-19T10:00:56.393204561Z  # Overrides: [nameservers]
+2025-02-19T10:00:56.393207497Z  # Option ndots from: internal'
+2025-02-19T10:00:56.393289507Z  + files_to_update=('/etc/kubernetes/manifests/etcd.yaml' '/etc/kubernetes/manifests/kube-apiserver.yaml' '/etc/kubernetes/manifests/kube-controller-manager.yaml' '/etc/kubernetes/manifests/kube-scheduler.yaml' '/etc/kubernetes/controller-manager.conf' '/etc/kubernetes/scheduler.conf' '/kind/kubeadm.conf' '/var/lib/kubelet/kubeadm-flags.env')
+2025-02-19T10:00:56.393298281Z  + local files_to_update
+2025-02-19T10:00:56.393302694Z  + local should_fix_certificate=false
+2025-02-19T10:00:56.394579781Z  ++ cut '-d ' -f1
+2025-02-19T10:00:56.394597196Z  ++ head -n1 /dev/fd/63
+2025-02-19T10:00:56.394960736Z  ++++ hostname
+2025-02-19T10:00:56.395882720Z  +++ timeout 5 getent ahostsv4 minikube
+2025-02-19T10:00:56.398649447Z  + curr_ipv4=192.168.49.2
+2025-02-19T10:00:56.398668736Z  + echo 'INFO: Detected IPv4 address: 192.168.49.2'
+2025-02-19T10:00:56.398673179Z  INFO: Detected IPv4 address: 192.168.49.2
+2025-02-19T10:00:56.398676916Z  + '[' -f /kind/old-ipv4 ']'
+2025-02-19T10:00:56.398680296Z  + [[ -n 192.168.49.2 ]]
+2025-02-19T10:00:56.398683351Z  + echo -n 192.168.49.2
+2025-02-19T10:00:56.399493079Z  ++ cut '-d ' -f1
+2025-02-19T10:00:56.399505810Z  ++ head -n1 /dev/fd/63
+2025-02-19T10:00:56.400284988Z  ++++ hostname
+2025-02-19T10:00:56.401063770Z  +++ timeout 5 getent ahostsv6 minikube
+2025-02-19T10:00:56.403431985Z  + curr_ipv6=
+2025-02-19T10:00:56.403450950Z  + echo 'INFO: Detected IPv6 address: '
+2025-02-19T10:00:56.403454596Z  INFO: Detected IPv6 address: 
+2025-02-19T10:00:56.403466777Z  + '[' -f /kind/old-ipv6 ']'
+2025-02-19T10:00:56.403515546Z  + [[ -n '' ]]
+2025-02-19T10:00:56.403519819Z  + false
+2025-02-19T10:00:56.404027846Z  ++ uname -a
+2025-02-19T10:00:56.404889660Z  + echo 'entrypoint completed: Linux minikube 6.8.0-52-generic #53~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jan 15 19:18:46 UTC 2 x86_64 x86_64 x86_64 GNU/Linux'
+2025-02-19T10:00:56.405005095Z  entrypoint completed: Linux minikube 6.8.0-52-generic #53~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jan 15 19:18:46 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+2025-02-19T10:00:56.405103513Z  + exec /sbin/init
+2025-02-19T10:00:56.417694180Z  systemd 249.11-0ubuntu3.12 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+2025-02-19T10:00:56.417718532Z  Detected virtualization docker.
+2025-02-19T10:00:56.417759810Z  Detected architecture x86-64.
+2025-02-19T10:00:56.417846256Z  
+2025-02-19T10:00:56.417852599Z  Welcome to [1mUbuntu 22.04.5 LTS[0m!
+2025-02-19T10:00:56.417857292Z  
+2025-02-19T10:00:56.503214431Z  Queued start job for default target Graphical Interface.
+2025-02-19T10:00:56.508397493Z  [[0;32m  OK  [0m] Created slice [0;1;39mSlice /system/modprobe[0m.
+2025-02-19T10:00:56.508420115Z  [[0;32m  OK  [0m] Started [0;1;39mDispatch Password …ts to Console Directory Watch[0m.
+2025-02-19T10:00:56.508424735Z  [[0;32m  OK  [0m] Set up automount [0;1;39mArbitrary…s File System Automount Point[0m.
+2025-02-19T10:00:56.508428506Z  [[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+2025-02-19T10:00:56.508490386Z  [[0;32m  OK  [0m] Reached target [0;1;39mNetwork is Online[0m.
+2025-02-19T10:00:56.508496509Z  [[0;32m  OK  [0m] Reached target [0;1;39mPath Units[0m.
+2025-02-19T10:00:56.508499884Z  [[0;32m  OK  [0m] Reached target [0;1;39mSlice Units[0m.
+2025-02-19T10:00:56.508503165Z  [[0;32m  OK  [0m] Reached target [0;1;39mSwaps[0m.
+2025-02-19T10:00:56.508506585Z  [[0;32m  OK  [0m] Reached target [0;1;39mLocal Verity Protected Volumes[0m.
+2025-02-19T10:00:56.508815402Z  [[0;32m  OK  [0m] Listening on [0;1;39mJournal Audit Socket[0m.
+2025-02-19T10:00:56.508965268Z  [[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket (/dev/log)[0m.
+2025-02-19T10:00:56.509175726Z  [[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket[0m.
+2025-02-19T10:00:56.511226773Z           Mounting [0;1;39mHuge Pages File System[0m...
+2025-02-19T10:00:56.512141182Z           Mounting [0;1;39mKernel Debug File System[0m...
+2025-02-19T10:00:56.513556811Z           Mounting [0;1;39mKernel Trace File System[0m...
+2025-02-19T10:00:56.515136898Z           Starting [0;1;39mJournal Service[0m...
+2025-02-19T10:00:56.516871958Z           Starting [0;1;39mCreate List of Static Device Nodes[0m...
+2025-02-19T10:00:56.519112215Z           Starting [0;1;39mLoad Kernel Module configfs[0m...
+2025-02-19T10:00:56.520693616Z           Starting [0;1;39mLoad Kernel Module fuse[0m...
+2025-02-19T10:00:56.523138708Z           Starting [0;1;39mRemount Root and Kernel File Systems[0m...
+2025-02-19T10:00:56.526098623Z           Starting [0;1;39mApply Kernel Variables[0m...
+2025-02-19T10:00:56.526147493Z  [[0;32m  OK  [0m] Mounted [0;1;39mHuge Pages File System[0m.
+2025-02-19T10:00:56.526153417Z  [[0;32m  OK  [0m] Mounted [0;1;39mKernel Debug File System[0m.
+2025-02-19T10:00:56.526157220Z  [[0;32m  OK  [0m] Mounted [0;1;39mKernel Trace File System[0m.
+2025-02-19T10:00:56.526160069Z  [[0;32m  OK  [0m] Finished [0;1;39mCreate List of Static Device Nodes[0m.
+2025-02-19T10:00:56.531663248Z  [[0;32m  OK  [0m] Finished [0;1;39mRemount Root and Kernel File Systems[0m.
+2025-02-19T10:00:56.533916744Z           Starting [0;1;39mCreate System Users[0m...
+2025-02-19T10:00:56.538990042Z           Starting [0;1;39mRecord System Boot/Shutdown in UTMP[0m...
+2025-02-19T10:00:56.545305798Z  modprobe@configfs.service: Deactivated successfully.
+2025-02-19T10:00:56.552319390Z  [[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module configfs[0m.
+2025-02-19T10:00:56.552347965Z  modprobe@fuse.service: Deactivated successfully.
+2025-02-19T10:00:56.552352576Z  [[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module fuse[0m.
+2025-02-19T10:00:56.552356318Z  [[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+2025-02-19T10:00:56.558770667Z  [[0;32m  OK  [0m] Finished [0;1;39mRecord System Boot/Shutdown in UTMP[0m.
+2025-02-19T10:00:56.566432750Z           Mounting [0;1;39mFUSE Control File System[0m...
+2025-02-19T10:00:56.568178137Z  [[0;32m  OK  [0m] Started [0;1;39mJournal Service[0m.
+2025-02-19T10:00:56.569116566Z  [[0;32m  OK  [0m] Finished [0;1;39mCreate System Users[0m.
+2025-02-19T10:00:56.572006147Z           Starting [0;1;39mFlush Journal to Persistent Storage[0m...
+2025-02-19T10:00:56.576815614Z           Starting [0;1;39mCreate Static Device Nodes in /dev[0m...
+2025-02-19T10:00:56.577990055Z  [[0;32m  OK  [0m] Mounted [0;1;39mFUSE Control File System[0m.
+2025-02-19T10:00:56.586135114Z  [[0;32m  OK  [0m] Finished [0;1;39mFlush Journal to Persistent Storage[0m.
+2025-02-19T10:00:56.588776370Z  [[0;32m  OK  [0m] Finished [0;1;39mCreate Static Device Nodes in /dev[0m.
+2025-02-19T10:00:56.588799144Z  [[0;32m  OK  [0m] Reached target [0;1;39mPreparation for Local File Systems[0m.
+2025-02-19T10:00:56.589434922Z  [[0;32m  OK  [0m] Reached target [0;1;39mLocal File Systems[0m.
+2025-02-19T10:00:56.589449208Z  [[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
+2025-02-19T10:00:56.590438988Z  [[0;32m  OK  [0m] Started [0;1;39mPodman auto-update timer[0m.
+2025-02-19T10:00:56.590644452Z  [[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
+2025-02-19T10:00:56.591066116Z  [[0;32m  OK  [0m] Reached target [0;1;39mTimer Units[0m.
+2025-02-19T10:00:56.591321209Z  [[0;32m  OK  [0m] Listening on [0;1;39mBuildKit[0m.
+2025-02-19T10:00:56.592729287Z           Starting [0;1;39mDocker Socket for the API[0m...
+2025-02-19T10:00:56.599455746Z           Starting [0;1;39mPodman API Socket[0m...
+2025-02-19T10:00:56.599874036Z  [[0;32m  OK  [0m] Listening on [0;1;39mDocker Socket for the API[0m.
+2025-02-19T10:00:56.600498874Z  [[0;32m  OK  [0m] Listening on [0;1;39mPodman API Socket[0m.
+2025-02-19T10:00:56.600512593Z  [[0;32m  OK  [0m] Reached target [0;1;39mSocket Units[0m.
+2025-02-19T10:00:56.600577358Z  [[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
+2025-02-19T10:00:56.601593601Z           Starting [0;1;39mcontainerd container runtime[0m...
+2025-02-19T10:00:56.604933957Z           Starting [0;1;39mminikube automount[0m...
+2025-02-19T10:00:56.606819353Z           Starting [0;1;39mPodman auto-update service[0m...
+2025-02-19T10:00:56.608792900Z           Starting [0;1;39mPodman Start All …estart Policy Set To Always[0m...
+2025-02-19T10:00:56.609832614Z           Starting [0;1;39mPodman API Service[0m...
+2025-02-19T10:00:56.616085374Z           Starting [0;1;39mOpenBSD Secure Shell server[0m...
+2025-02-19T10:00:56.616158853Z  [[0;32m  OK  [0m] Started [0;1;39mPodman API Service[0m.
+2025-02-19T10:00:56.676994815Z  [[0;32m  OK  [0m] Started [0;1;39mOpenBSD Secure Shell server[0m.
+2025-02-19T10:00:56.683164769Z  [[0;32m  OK  [0m] Finished [0;1;39mminikube automount[0m.
+2025-02-19T10:00:56.737152997Z  [[0;32m  OK  [0m] Started [0;1;39mcontainerd container runtime[0m.
+2025-02-19T10:00:56.745501680Z           Starting [0;1;39mDocker Application Container Engine[0m...
+2025-02-19T10:00:56.814201899Z  [[0;32m  OK  [0m] Finished [0;1;39mPodman Start All … Restart Policy Set To Always[0m.
+2025-02-19T10:00:56.957365901Z  [[0;32m  OK  [0m] Finished [0;1;39mPodman auto-update service[0m.
+2025-02-19T10:00:57.108991711Z  [[0;32m  OK  [0m] Started [0;1;39mDocker Application Container Engine[0m.
+2025-02-19T10:00:57.109144403Z  [[0;32m  OK  [0m] Reached target [0;1;39mMulti-User System[0m.
+2025-02-19T10:00:57.109286937Z  [[0;32m  OK  [0m] Reached target [0;1;39mGraphical Interface[0m.
+2025-02-19T10:00:57.114535262Z           Starting [0;1;39mRecord Runlevel Change in UTMP[0m...
+2025-02-19T10:00:57.120893435Z  [[0;32m  OK  [0m] Finished [0;1;39mRecord Runlevel Change in UTMP[0m.
+2025-02-19T10:01:38.923377415Z           Stopping [0;1;39mlibcontainer cont…1019ccfa8396d4b299ff299825c[0m...
+2025-02-19T10:01:38.923404991Z           Stopping [0;1;39mlibcontainer cont…f6221c87beb097583ed0bc6ebe3[0m...
+2025-02-19T10:01:38.923500447Z           Stopping [0;1;39mlibcontainer cont…c5d3356c3d1a0870ba303799927[0m...
+2025-02-19T10:01:38.923508562Z           Stopping [0;1;39mlibcontainer cont…2989452af13c1f625643055a1d4[0m...
+2025-02-19T10:01:38.923513986Z           Stopping [0;1;39mlibcontainer cont…d4f8884a22c050759325d2950c2[0m...
+2025-02-19T10:01:38.923519131Z           Stopping [0;1;39mlibcontainer cont…096d9cbf2a1b3c0077b76dd2bb9[0m...
+2025-02-19T10:01:38.923528832Z           Stopping [0;1;39mlibcontainer cont…a50c56cb54b35433cc03d1ca6dc[0m...
+2025-02-19T10:01:38.923533723Z  [[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/modprobe[0m.
+2025-02-19T10:01:38.924090693Z  [[0;32m  OK  [0m] Stopped target [0;1;39mGraphical Interface[0m.
+2025-02-19T10:01:38.924605419Z  [[0;32m  OK  [0m] Stopped target [0;1;39mMulti-User System[0m.
+2025-02-19T10:01:38.925737773Z  [[0;32m  OK  [0m] Stopped target [0;1;39mTimer Units[0m.
+2025-02-19T10:01:38.925762183Z  [[0;32m  OK  [0m] Stopped [0;1;39mPodman auto-update timer[0m.
+2025-02-19T10:01:38.938130474Z  [[0;32m  OK  [0m] Stopped [0;1;39mDaily Cleanup of Temporary Directories[0m.
+2025-02-19T10:01:38.938156116Z           Stopping [0;1;39mCRI Interface for…pplication Container Engine[0m...
+2025-02-19T10:01:38.938163328Z           Stopping [0;1;39mkubelet: The Kubernetes Node Agent[0m...
+2025-02-19T10:01:38.939683209Z  [[0;32m  OK  [0m] Stopped [0;1;39mPodman Start All C… Restart Policy Set To Always[0m.
+2025-02-19T10:01:38.939690865Z           Stopping [0;1;39mOpenBSD Secure Shell server[0m...
+2025-02-19T10:01:38.939820249Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…72d4f8884a22c050759325d2950c2[0m.
+2025-02-19T10:01:38.939883888Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…94a50c56cb54b35433cc03d1ca6dc[0m.
+2025-02-19T10:01:38.941510109Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…5af6221c87beb097583ed0bc6ebe3[0m.
+2025-02-19T10:01:38.949099493Z  [[0;32m  OK  [0m] Removed slice [0;1;39mlibcontainer…_4352_9f33_4a8b28cb2ff6.slice[0m.
+2025-02-19T10:01:38.953601051Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…cf2989452af13c1f625643055a1d4[0m.
+2025-02-19T10:01:38.957792054Z  [[0;32m  OK  [0m] Stopped [0;1;39mOpenBSD Secure Shell server[0m.
+2025-02-19T10:01:38.962746884Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…40c5d3356c3d1a0870ba303799927[0m.
+2025-02-19T10:01:38.976336554Z  [[0;32m  OK  [0m] Stopped [0;1;39mCRI Interface for … Application Container Engine[0m.
+2025-02-19T10:01:38.979890749Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…801019ccfa8396d4b299ff299825c[0m.
+2025-02-19T10:01:38.986954149Z  [[0;32m  OK  [0m] Removed slice [0;1;39mlibcontainer…_4220_875d_230cf7759bcb.slice[0m.
+2025-02-19T10:01:38.991819015Z  [[0;32m  OK  [0m] Removed slice [0;1;39mlibcontainer…_464f_8bfc_d9aec48fa282.slice[0m.
+2025-02-19T10:01:38.991847808Z           Stopping [0;1;39mDocker Application Container Engine[0m...
+2025-02-19T10:01:39.012329820Z  [[0;32m  OK  [0m] Stopped [0;1;39mlibcontainer conta…df096d9cbf2a1b3c0077b76dd2bb9[0m.
+2025-02-19T10:01:39.022598966Z  [[0;32m  OK  [0m] Removed slice [0;1;39mlibcontainer…_4162_80ab_c408c2cd6eda.slice[0m.
+2025-02-19T10:01:39.062458852Z  [[0;32m  OK  [0m] Stopped [0;1;39mkubelet: The Kubernetes Node Agent[0m.
+2025-02-19T10:01:39.598469986Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…4b35433cc03d1ca6dc/mounts/shm[0m.
+2025-02-19T10:01:39.598801552Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…f4c841251a5df6bebdd697/merged[0m.
+2025-02-19T10:01:39.619157719Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…9f48b5cabdc390d550571e/merged[0m.
+2025-02-19T10:01:39.619174372Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…22cfb08391b80bb7801c2e/merged[0m.
+2025-02-19T10:01:40.430876245Z  [[0;32m  OK  [0m] Stopped [0;1;39mDocker Application Container Engine[0m.
+2025-02-19T10:01:40.431175742Z  [[0;32m  OK  [0m] Stopped target [0;1;39mNetwork is Online[0m.
+2025-02-19T10:01:40.431485323Z           Stopping [0;1;39mcontainerd container runtime[0m...
+2025-02-19T10:01:40.431497495Z  [[0;32m  OK  [0m] Stopped [0;1;39mminikube automount[0m.
+2025-02-19T10:01:40.440083540Z  [[0;32m  OK  [0m] Stopped [0;1;39mcontainerd container runtime[0m.
+2025-02-19T10:01:40.440684277Z  [[0;32m  OK  [0m] Stopped target [0;1;39mBasic System[0m.
+2025-02-19T10:01:40.440708178Z  [[0;32m  OK  [0m] Stopped target [0;1;39mPath Units[0m.
+2025-02-19T10:01:40.440776372Z  [[0;32m  OK  [0m] Stopped target [0;1;39mSlice Units[0m.
+2025-02-19T10:01:40.440784379Z  [[0;32m  OK  [0m] Stopped target [0;1;39mSocket Units[0m.
+2025-02-19T10:01:40.440806038Z  [[0;32m  OK  [0m] Closed [0;1;39mBuildKit[0m.
+2025-02-19T10:01:40.441634334Z  [[0;32m  OK  [0m] Closed [0;1;39mCRI Docker Socket for the API[0m.
+2025-02-19T10:01:40.442523442Z  [[0;32m  OK  [0m] Closed [0;1;39mDocker Socket for the API[0m.
+2025-02-19T10:01:40.443491111Z  [[0;32m  OK  [0m] Closed [0;1;39mPodman API Socket[0m.
+2025-02-19T10:01:40.443506050Z  [[0;32m  OK  [0m] Stopped target [0;1;39mSystem Initialization[0m.
+2025-02-19T10:01:40.443509865Z  [[0;32m  OK  [0m] Unset automount [0;1;39mArbitrary …s File System Automount Point[0m.
+2025-02-19T10:01:40.443513489Z  [[0;32m  OK  [0m] Stopped target [0;1;39mLocal Encrypted Volumes[0m.
+2025-02-19T10:01:40.448352454Z  [[0;32m  OK  [0m] Stopped [0;1;39mDispatch Password …ts to Console Directory Watch[0m.
+2025-02-19T10:01:40.448389610Z  [[0;32m  OK  [0m] Stopped target [0;1;39mLocal File Systems[0m.
+2025-02-19T10:01:40.448464920Z  [[0;32m  OK  [0m] Stopped target [0;1;39mLocal Verity Protected Volumes[0m.
+2025-02-19T10:01:40.458071221Z           Unmounting [0;1;39m/data[0m...
+2025-02-19T10:01:40.458097800Z           Unmounting [0;1;39m/etc/hostname[0m...
+2025-02-19T10:01:40.460500125Z           Unmounting [0;1;39m/etc/hosts[0m...
+2025-02-19T10:01:40.462385459Z           Unmounting [0;1;39m/etc/resolv.conf[0m...
+2025-02-19T10:01:40.465222364Z           Unmounting [0;1;39m/kind/product_uuid[0m...
+2025-02-19T10:01:40.467006156Z           Unmounting [0;1;39m/run/credentials/systemd-sysusers.service[0m...
+2025-02-19T10:01:40.468882428Z           Unmounting [0;1;39m/run/docker/netns/default[0m...
+2025-02-19T10:01:40.471720438Z           Unmounting [0;1;39m/tmp/hostpath-provisioner[0m...
+2025-02-19T10:01:40.474850016Z           Unmounting [0;1;39m/tmp/hostpath_pv[0m...
+2025-02-19T10:01:40.476454844Z           Unmounting [0;1;39m/usr/lib/modules[0m...
+2025-02-19T10:01:40.478451505Z           Unmounting [0;1;39m/var/lib/docker…c1f625643055a1d4/mounts/shm[0m...
+2025-02-19T10:01:40.483895990Z           Unmounting [0;1;39m/var/lib/docker…b17f7bdbf46c5cdd/mounts/shm[0m...
+2025-02-19T10:01:40.483920894Z           Unmounting [0;1;39m/var/lib/docker…cc3f06ca4e4e7944/mounts/shm[0m...
+2025-02-19T10:01:40.487585013Z           Unmounting [0;1;39m/var/lib/docker…050759325d2950c2/mounts/shm[0m...
+2025-02-19T10:01:40.487712082Z           Unmounting [0;1;39m/var/lib/docker…0368663cc7c26a74/mounts/shm[0m...
+2025-02-19T10:01:40.490679878Z           Unmounting [0;1;39m/var/lib/docker…5f3e80f0d373f517/mounts/shm[0m...
+2025-02-19T10:01:40.494701339Z           Unmounting [0;1;39m/var/lib/docker…af9ca71b766967ba1262/merged[0m...
+2025-02-19T10:01:40.496476530Z           Unmounting [0;1;39m/var/lib/docker…0d9a8d451e4bd5eb1776/merged[0m...
+2025-02-19T10:01:40.498249563Z           Unmounting [0;1;39m/var/lib/docker…521b30f053de1f72f115/merged[0m...
+2025-02-19T10:01:40.500346959Z           Unmounting [0;1;39m/var/lib/docker…02d709a764022ed734fb/merged[0m...
+2025-02-19T10:01:40.502336707Z           Unmounting [0;1;39m/var/lib/docker…1e13b290c607371c9eb4/merged[0m...
+2025-02-19T10:01:40.504205348Z           Unmounting [0;1;39m/var/lib/docker…e7c2fd9c57c387a38d20/merged[0m...
+2025-02-19T10:01:40.507968976Z           Unmounting [0;1;39m/var/lib/docker…4bbc003abfaf36568b6d/merged[0m...
+2025-02-19T10:01:40.510693243Z           Unmounting [0;1;39m/var/lib/docker…8a7ddf0a6d0d224254e9/merged[0m...
+2025-02-19T10:01:40.512368347Z           Unmounting [0;1;39m/var/lib/docker…603a080b3308422c3107/merged[0m...
+2025-02-19T10:01:40.515481068Z           Unmounting [0;1;39m/var/lib/docker…4264b90b68c2cc739e6e/merged[0m...
+2025-02-19T10:01:40.516211461Z           Unmounting [0;1;39m/var/lib/docker…03eec2eb5221b50afbdc/merged[0m...
+2025-02-19T10:01:40.518114396Z           Unmounting [0;1;39m/var/lib/kubele…ected/kube-api-access-ns26m[0m...
+2025-02-19T10:01:40.521368840Z           Unmounting [0;1;39m/var/lib/kubele…ected/kube-api-access-9dprw[0m...
+2025-02-19T10:01:40.521680091Z           Unmounting [0;1;39m/var/lib/kubele…ected/kube-api-access-sbnlz[0m...
+2025-02-19T10:01:40.525655907Z           Unmounting [0;1;39m/var/lib/kubele…ected/kube-api-access-cv25v[0m...
+2025-02-19T10:01:40.525923130Z  [[0;32m  OK  [0m] Stopped [0;1;39mApply Kernel Variables[0m.
+2025-02-19T10:01:40.527726152Z           Stopping [0;1;39mRecord System Boot/Shutdown in UTMP[0m...
+2025-02-19T10:01:40.534365418Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/data[0m.
+2025-02-19T10:01:40.535072167Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/etc/hostname[0m.
+2025-02-19T10:01:40.535987801Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/etc/hosts[0m.
+2025-02-19T10:01:40.536878470Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/etc/resolv.conf[0m.
+2025-02-19T10:01:40.537552540Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/kind/product_uuid[0m.
+2025-02-19T10:01:40.538648488Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/run/credentials/systemd-sysusers.service[0m.
+2025-02-19T10:01:40.539644313Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/run/docker/netns/default[0m.
+2025-02-19T10:01:40.540993727Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/tmp/hostpath-provisioner[0m.
+2025-02-19T10:01:40.541986405Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/tmp/hostpath_pv[0m.
+2025-02-19T10:01:40.543010808Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/usr/lib/modules[0m.
+2025-02-19T10:01:40.543831744Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…13c1f625643055a1d4/mounts/shm[0m.
+2025-02-19T10:01:40.544865445Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…87b17f7bdbf46c5cdd/mounts/shm[0m.
+2025-02-19T10:01:40.545591218Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…1acc3f06ca4e4e7944/mounts/shm[0m.
+2025-02-19T10:01:40.546503929Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…2c050759325d2950c2/mounts/shm[0m.
+2025-02-19T10:01:40.546888713Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…1a0368663cc7c26a74/mounts/shm[0m.
+2025-02-19T10:01:40.547625319Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…ae5f3e80f0d373f517/mounts/shm[0m.
+2025-02-19T10:01:40.548641330Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…0baf9ca71b766967ba1262/merged[0m.
+2025-02-19T10:01:40.549331656Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…c90d9a8d451e4bd5eb1776/merged[0m.
+2025-02-19T10:01:40.549990818Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…3c521b30f053de1f72f115/merged[0m.
+2025-02-19T10:01:40.550784004Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…c602d709a764022ed734fb/merged[0m.
+2025-02-19T10:01:40.551405319Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…b71e13b290c607371c9eb4/merged[0m.
+2025-02-19T10:01:40.551961026Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…03e7c2fd9c57c387a38d20/merged[0m.
+2025-02-19T10:01:40.552559520Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…0c4bbc003abfaf36568b6d/merged[0m.
+2025-02-19T10:01:40.553217487Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…088a7ddf0a6d0d224254e9/merged[0m.
+2025-02-19T10:01:40.553948858Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…1f603a080b3308422c3107/merged[0m.
+2025-02-19T10:01:40.554614164Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…3e4264b90b68c2cc739e6e/merged[0m.
+2025-02-19T10:01:40.555211664Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/docker/…bc03eec2eb5221b50afbdc/merged[0m.
+2025-02-19T10:01:40.555879171Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/kubelet…ojected/kube-api-access-ns26m[0m.
+2025-02-19T10:01:40.558374473Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/kubelet…ojected/kube-api-access-9dprw[0m.
+2025-02-19T10:01:40.558399318Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/kubelet…ojected/kube-api-access-sbnlz[0m.
+2025-02-19T10:01:40.559142409Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/kubelet…ojected/kube-api-access-cv25v[0m.
+2025-02-19T10:01:40.571801744Z           Unmounting [0;1;39m/tmp[0m...
+2025-02-19T10:01:40.572414151Z  [[0;32m  OK  [0m] Stopped [0;1;39mRecord System Boot/Shutdown in UTMP[0m.
+2025-02-19T10:01:40.575350449Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/tmp[0m.
+2025-02-19T10:01:40.575502703Z  [[0;32m  OK  [0m] Stopped target [0;1;39mSwaps[0m.
+2025-02-19T10:01:40.576732160Z           Unmounting [0;1;39m/var[0m...
+2025-02-19T10:01:40.579997349Z  [[0;32m  OK  [0m] Unmounted [0;1;39m/var[0m.
+2025-02-19T10:01:40.580139179Z  [[0;32m  OK  [0m] Stopped target [0;1;39mPreparation for Local File Systems[0m.
+2025-02-19T10:01:40.580215247Z  [[0;32m  OK  [0m] Reached target [0;1;39mUnmount All Filesystems[0m.
+2025-02-19T10:01:40.580293371Z  [[0;32m  OK  [0m] Stopped [0;1;39mCreate Static Device Nodes in /dev[0m.
+2025-02-19T10:01:40.580651044Z  [[0;32m  OK  [0m] Stopped [0;1;39mCreate System Users[0m.
+2025-02-19T10:01:40.580657721Z  [[0;32m  OK  [0m] Stopped [0;1;39mRemount Root and Kernel File Systems[0m.
+2025-02-19T10:01:40.580714940Z  [[0;32m  OK  [0m] Reached target [0;1;39mSystem Shutdown[0m.
+2025-02-19T10:01:40.580722203Z  [[0;32m  OK  [0m] Reached target [0;1;39mLate Shutdown Services[0m.
+2025-02-19T10:01:40.581884449Z           Starting [0;1;39mSystem Halt[0m...
+2025-02-19T10:01:40.621713318Z  Sending SIGTERM to remaining processes...
+2025-02-19T10:01:40.629607643Z  Sending SIGKILL to remaining processes...
+2025-02-19T10:01:40.631565450Z  All filesystems, swaps, loop devices, MD devices and DM devices detached.
+2025-02-19T10:01:40.632557315Z  Halting system.
+
+-- /stdout --
+I0219 15:32:49.198226  363534 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0219 15:32:49.219286  363534 info.go:266] docker info: {ID:3ac1b4e5-c9dc-4b6c-9332-9c65501d5aa3 Containers:18 ContainersRunning:1 ContainersPaused:0 ContainersStopped:17 Images:63 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:34 OomKillDisable:false NGoroutines:53 SystemTime:2025-02-19 15:32:49.211607219 +0530 IST LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-52-generic OperatingSystem:Ubuntu 22.04.5 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:16645636096 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:moshe Labels:[] ExperimentalBuild:false ServerVersion:26.1.3 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I0219 15:32:49.219337  363534 errors.go:98] postmortem docker info: {ID:3ac1b4e5-c9dc-4b6c-9332-9c65501d5aa3 Containers:18 ContainersRunning:1 ContainersPaused:0 ContainersStopped:17 Images:63 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:34 OomKillDisable:false NGoroutines:53 SystemTime:2025-02-19 15:32:49.211607219 +0530 IST LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-52-generic OperatingSystem:Ubuntu 22.04.5 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:16645636096 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:moshe Labels:[] ExperimentalBuild:false ServerVersion:26.1.3 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I0219 15:32:49.219396  363534 network_create.go:284] running [docker network inspect minikube] to gather additional debugging logs...
+I0219 15:32:49.219411  363534 cli_runner.go:164] Run: docker network inspect minikube
+I0219 15:32:49.232125  363534 network_create.go:289] output of [docker network inspect minikube]: -- stdout --
+[
+    {
+        "Name": "minikube",
+        "Id": "870d12096fab4840f670e9f2d5ae017795cb5b25118dd8ea9fdcbaa62ca0951a",
+        "Created": "2025-02-19T15:32:14.660977108+05:30",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "192.168.58.0/24",
+                    "Gateway": "192.168.58.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "b227e0500e05acf03e530aff12b2fc3471cae23fc74e76722c866f0452b0ac6e": {
+                "Name": "minikube-m03",
+                "EndpointID": "55b15f518078aeb98620c3db1373bcdc3ff9f4b8ff9aa390932368800f7fd12e",
+                "MacAddress": "02:42:c0:a8:3a:04",
+                "IPv4Address": "192.168.58.4/24",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "--icc": "",
+            "--ip-masq": "",
+            "com.docker.network.driver.mtu": "1500"
+        },
+        "Labels": {
+            "created_by.minikube.sigs.k8s.io": "true",
+            "name.minikube.sigs.k8s.io": "minikube"
+        }
+    }
+]
+
+-- /stdout --
+I0219 15:32:49.232216  363534 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0219 15:32:49.251093  363534 info.go:266] docker info: {ID:3ac1b4e5-c9dc-4b6c-9332-9c65501d5aa3 Containers:18 ContainersRunning:1 ContainersPaused:0 ContainersStopped:17 Images:63 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:34 OomKillDisable:false NGoroutines:53 SystemTime:2025-02-19 15:32:49.243816595 +0530 IST LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.8.0-52-generic OperatingSystem:Ubuntu 22.04.5 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:16645636096 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:moshe Labels:[] ExperimentalBuild:false ServerVersion:26.1.3 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID: Expected:} RuncCommit:{ID: Expected:} InitCommit:{ID: Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[] Warnings:<nil>}}
+I0219 15:32:49.251194  363534 ssh_runner.go:195] Run: sh -c "df -h /var | awk 'NR==2{print $5}'"
+I0219 15:32:49.251221  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:49.265322  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:49.265393  363534 retry.go:31] will retry after 227.1353ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:49.492880  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:49.534973  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:49.535105  363534 retry.go:31] will retry after 438.015715ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:49.973601  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:50.017054  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:50.017154  363534 retry.go:31] will retry after 355.728994ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:50.373936  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:50.418766  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0219 15:32:50.418937  363534 start.go:268] error running df -h /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+W0219 15:32:50.418951  363534 start.go:235] error getting percentage of /var that is free: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:50.419008  363534 ssh_runner.go:195] Run: sh -c "df -BG /var | awk 'NR==2{print $4}'"
+I0219 15:32:50.419073  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:50.439306  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:50.439428  363534 retry.go:31] will retry after 337.229165ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:50.777143  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:50.827176  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:50.827324  363534 retry.go:31] will retry after 383.218122ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:51.210914  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:51.251409  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0219 15:32:51.251502  363534 retry.go:31] will retry after 325.094074ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:51.577299  363534 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0219 15:32:51.615153  363534 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0219 15:32:51.615269  363534 start.go:283] error running df -BG /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+W0219 15:32:51.615283  363534 start.go:240] error getting GiB of /var that is available: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: unable to inspect a not running container to get SSH port
+I0219 15:32:51.615290  363534 fix.go:56] duration metric: took 2.577836586s for fixHost
+I0219 15:32:51.615295  363534 start.go:83] releasing machines lock for "minikube", held for 2.577889841s
+W0219 15:32:51.615363  363534 out.go:270] 😿  Failed to start docker container. Running "minikube delete" may fix it: driver start: start: docker start minikube: exit status 1
+stdout:
+
+stderr:
+Error response from daemon: network 789e213671576568e676ae6574a4955cd5b7dbda4010c6fa60f7abe11f858a9e not found
+Error: failed to start containers: minikube
+
+I0219 15:32:51.622560  363534 out.go:201] 
+W0219 15:32:51.627093  363534 out.go:270] ❌  Exiting due to GUEST_PROVISION: error provisioning guest: Failed to start host: driver start: start: docker start minikube: exit status 1
+stdout:
+
+stderr:
+Error response from daemon: network 789e213671576568e676ae6574a4955cd5b7dbda4010c6fa60f7abe11f858a9e not found
+Error: failed to start containers: minikube
+
+W0219 15:32:51.627117  363534 out.go:270] 
+W0219 15:32:51.628715  363534 out.go:293] [31m╭───────────────────────────────────────────────────────────────────────────────────────────╮[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    😿  If the above advice does not help, please let us know:                             [31m│[0m
+[31m│[0m    👉  https://github.com/kubernetes/minikube/issues/new/choose                           [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    Please run `minikube logs --file=logs.txt` and attach logs.txt to the GitHub issue.    [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m╰───────────────────────────────────────────────────────────────────────────────────────────╯[0m
+I0219 15:32:51.632402  363534 out.go:201] 
+
+

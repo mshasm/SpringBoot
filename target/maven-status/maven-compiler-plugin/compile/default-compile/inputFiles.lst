@@ -1,0 +1,10 @@
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/Application.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/LoginController.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/config/ServerConfig.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/config/WebConfig.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/controller/UserController.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/exception/GlobalExceptionHandler.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/model/User.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/repository/UserRepository.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/service/UserService.java
+/home/thammuluri/spring-boot-backend/src/main/java/com/example/service/UserServiceImpl.java
